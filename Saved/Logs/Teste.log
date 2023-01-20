@@ -2630,3 +2630,1226 @@ Script Stack (0 frames):
 [2023.01.19-23.42.46:641][887]AssetCheck: New page: Asset Save: multiple assets
 [2023.01.19-23.42.46:641][887]LogContentValidation: Display: Validating herb_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.herb_C_UAID_40B0762268446B5E01_1784311268
 [2023.01.19-23.42.46:641][887]LogContentValidation: Display: Validating SoundWave /Game/StarterContent/Audio/leaf-crunch.leaf-crunch
+[2023.01.19-23.46.48:079][278]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2023.01.19-23.46.48:087][278]LogContentBrowser: Creating deferred item: NewMaterial
+[2023.01.19-23.46.48:097][279]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2023.01.19-23.46.49:937][384]LogContentBrowser: Attempting asset rename: NewMaterial -> folha
+[2023.01.19-23.46.49:947][384]LogContentBrowser: End creating deferred item NewMaterial
+[2023.01.19-23.47.12:185][564]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Documentos\EBAC\Unreal Game Development\Módulo 4\Leaf_SM.FBX)
+[2023.01.19-23.47.12:364][564]LogFbx: Loading FBX Scene from D:\Documentos\EBAC\Unreal Game Development\Módulo 4\Leaf_SM.FBX
+[2023.01.19-23.47.12:381][564]LogFbx: FBX Scene Loaded Succesfully
+[2023.01.19-23.47.15:374][564]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.01.19-23.47.15:835][564]LogTexture: Display: Building textures: /Game/folha/Leaf_Diffuse_T.Leaf_Diffuse_T (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2023.01.19-23.47.15:864][564]LogMaterial: Display: Missing cached shadermap for 01_-_Default in PCD3D_SM5, Default, SM5 (DDC key hash: 65DB45DA6BA2154B7C9C63F0576CA39CAF1AB839), compiling. 
+[2023.01.19-23.47.16:042][564]LogFbx: Display: Triangulating static mesh Leaf_SM
+[2023.01.19-23.47.16:170][564]LogStaticMesh: Display: Building static mesh Leaf_SM...
+[2023.01.19-23.47.16:281][564]LogStaticMesh: Built static mesh [0.10s] /Game/folha/Leaf_SM.Leaf_SM
+[2023.01.19-23.47.16:591][564]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.01.19-23.47.27:740][564]LogSlate: Window 'Message' being destroyed
+[2023.01.19-23.47.27:747][564]Message dialog closed, result: No, title: Message, text: Do you want to overwrite the existing asset?
+
+An asset already exists at the import location: /Game/folha/Leaf_Diffuse_T
+[2023.01.19-23.47.31:455][758]LogShaderCompilers: Display: ================================================
+[2023.01.19-23.47.31:455][758]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.01.19-23.47.31:455][758]LogShaderCompilers: Display: Total job queries 4, among them cache hits 0 (0.00%)
+[2023.01.19-23.47.31:455][758]LogShaderCompilers: Display: Tracking 1 distinct input hashes that result in 1 distinct outputs (100.00%)
+[2023.01.19-23.47.31:455][758]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2023.01.19-23.47.31:455][758]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.01.19-23.47.31:455][758]LogShaderCompilers: Display: Shaders Compiled: 2
+[2023.01.19-23.47.31:456][758]LogShaderCompilers: Display: Jobs assigned 3, completed 1 (33.33%)
+[2023.01.19-23.47.31:456][758]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2023.01.19-23.47.31:470][758]LogShaderCompilers: Display: Time job spent in pending queue: average 1.15 s, longest 3.26 s
+[2023.01.19-23.47.31:470][758]LogShaderCompilers: Display: Job execution time: average 3.18 s, max 3.18 s
+[2023.01.19-23.47.31:470][758]LogShaderCompilers: Display: Job life time (pending + execution): average 3.27 s, max 3.27
+[2023.01.19-23.47.31:470][758]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.27 s
+[2023.01.19-23.47.31:470][758]LogShaderCompilers: Display: Jobs were issued in 3 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.01.19-23.47.31:470][758]LogShaderCompilers: Display: Average processing rate: 0.31 jobs/sec
+[2023.01.19-23.47.31:470][758]LogShaderCompilers: Display: Effective parallelization: 0.21 (times faster than compiling all shaders on one thread). Compare with number of workers: 2
+[2023.01.19-23.47.31:470][758]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2023.01.19-23.47.31:470][758]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.70 sec, max 0.70 sec, min 0.70 sec)
+[2023.01.19-23.47.31:470][758]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2023.01.19-23.47.31:470][758]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 100.00% of total time (compiled    1 times, average 0.70 sec, max 0.70 sec, min 0.70 sec)
+[2023.01.19-23.47.31:470][758]LogShaderCompilers: Display: ================================================
+[2023.01.19-23.47.34:215][902]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2023.01.19-23.47.34:218][902]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.203
+[2023.01.19-23.47.34:223][902]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/folha/Leaf_SM] ([1] browsable assets)...
+[2023.01.19-23.47.34:248][902]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/folha/Leaf_SM.Leaf_SM]
+[2023.01.19-23.47.34:248][902]OBJ SavePackage: Finished generating thumbnails for package [/Game/folha/Leaf_SM]
+[2023.01.19-23.47.34:248][902]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/folha/Leaf_SM" FILE="../../../../../../Documentos/UE5/Projects/Teste/Saved/Autosaves/Game/folha/Leaf_SM_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2023.01.19-23.47.34:312][902]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/folha/Leaf_SM_Auto4
+[2023.01.19-23.47.34:312][902]LogSavePackage: Moving '../../../../../../Documentos/UE5/Projects/Teste/Saved/Leaf_SM_Auto497C80EA74F5EA380DE047FB41B3412D3.tmp' to '../../../../../../Documentos/UE5/Projects/Teste/Saved/Autosaves/Game/folha/Leaf_SM_Auto4.uasset'
+[2023.01.19-23.47.34:313][902]LogFileHelpers: Auto-saving content packages took 0.090
+[2023.01.19-23.47.42:905][399]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/folha/01_-_Default.01_-_Default
+[2023.01.19-23.47.42:952][399]LogMaterial: Display: Missing cached shadermap for Preview:01_-_Default in PCD3D_SM5, Default, SM5 (DDC key hash: 8F00D0B3C6986376BFDE4EC9CED6CE208A7CAC4E), compiling. 
+[2023.01.19-23.47.43:026][399]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.19-23.47.43:368][399]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/AssetViewer/Floor_Mesh) ...
+[2023.01.19-23.47.43:719][399]LogMaterial: Display: Missing cached shadermap for Preview:01_-_Default in PCD3D_SM5, Default, SM5 (DDC key hash: F540D5CA800FD7BD183E9933A7ACC252EC808EF2), compiling. 
+[2023.01.19-23.47.43:731][399]LogMaterial: Display: Missing cached shadermap for Preview:01_-_Default in PCD3D_SM5, Default, SM5 (DDC key hash: BFCF7E0746319FAFD1BF00597A7529BE9A68D9C8), compiling. 
+[2023.01.19-23.47.43:754][399]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: B730BBC01B5B1335E4752F2CEF1FB9075A9033CA), compiling. 
+[2023.01.19-23.47.43:802][399]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.19-23.47.43:802][399]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.01.19-23.47.43:802][399]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.47.43:802][399]MaterialEditorStats: Shader Count: 0
+[2023.01.19-23.47.43:814][399]LogViewport: Scene viewport resized to 376x445, mode Windowed.
+[2023.01.19-23.47.44:079][401]MaterialEditorStats: Texture samplers: 3/16
+[2023.01.19-23.47.44:079][401]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.01.19-23.47.44:079][401]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.47.44:079][401]MaterialEditorStats: Shader Count: 4
+[2023.01.19-23.47.55:376][943]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2023.01.19-23.47.55:376][943]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.19-23.47.58:180][100]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2023.01.19-23.47.58:180][100]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.19-23.47.58:954][128]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.01.19-23.47.58:954][128]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2023.01.19-23.47.58:954][128]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.19-23.47.59:501][155]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.01.19-23.47.59:501][155]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2023.01.19-23.47.59:501][155]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.19-23.48.00:053][179]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.01.19-23.48.00:053][179]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.01.19-23.48.00:053][179]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.19-23.48.00:665][206]LogSlate: Window 'moeda' being destroyed
+[2023.01.19-23.48.00:807][206]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.01.19-23.48.00:807][206]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2023.01.19-23.48.00:807][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.19-23.48.07:859][597]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/folha/Leaf_SM.Leaf_SM
+[2023.01.19-23.48.07:973][597]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.19-23.48.08:660][597]LogViewport: Scene viewport resized to 1405x894, mode Windowed.
+[2023.01.19-23.48.20:313][ 16]LogSlate: Window 'Leaf_SM' being destroyed
+[2023.01.19-23.48.20:495][ 16]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2023.01.19-23.48.20:495][ 16]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.19-23.48.27:589][355]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Documentos\EBAC\Unreal Game Development\Módulo 4\Leaf_Normal_T.tga)
+[2023.01.19-23.48.27:638][355]LogTexture: Display: Building textures: /Game/folha/Leaf_Normal_T.Leaf_Normal_T (TFO_BC5, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2023.01.19-23.48.46:579][568]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/folha/Leaf_SM.Leaf_SM
+[2023.01.19-23.48.46:663][568]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.19-23.48.46:973][568]LogViewport: Scene viewport resized to 1405x894, mode Windowed.
+[2023.01.19-23.48.56:110][896]LogSlate: Window 'Leaf_SM' being destroyed
+[2023.01.19-23.48.56:173][896]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2023.01.19-23.48.56:173][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.19-23.48.59:865][979]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/folha/01_-_Default.01_-_Default
+[2023.01.19-23.48.59:867][979]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 71C922748FC73E9E3334545F9052CA081F718C52), compiling. 
+[2023.01.19-23.48.59:883][979]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.19-23.49.00:016][979]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 64042B17EB1F52BBEB565CEF34DF384EFA91CB8B), compiling. 
+[2023.01.19-23.49.00:020][979]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: F8A1170E10345F539D27749A6D41ED9DF5382EE7), compiling. 
+[2023.01.19-23.49.00:022][979]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 2271F8A3BB6DE9C37B88D24F8069BE2181503F1D), compiling. 
+[2023.01.19-23.49.00:048][979]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.19-23.49.00:048][979]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.01.19-23.49.00:048][979]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.49.00:048][979]MaterialEditorStats: Shader Count: 0
+[2023.01.19-23.49.00:054][979]LogViewport: Scene viewport resized to 376x445, mode Windowed.
+[2023.01.19-23.49.01:346][ 41]MaterialEditorStats: Texture samplers: 3/16
+[2023.01.19-23.49.01:346][ 41]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.01.19-23.49.01:346][ 41]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.49.01:346][ 41]MaterialEditorStats: Shader Count: 1
+[2023.01.19-23.49.11:771][540]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: C136A621585375CCED09F70F8D1BA73FEC7B9BAB), compiling. 
+[2023.01.19-23.49.11:774][540]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 460821A62865F33BB12E8CFEB71E7EC8AE43B1E7), compiling. 
+[2023.01.19-23.49.11:777][540]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 50221A6A024E4F12AA24848C4D8186A992B47504), compiling. 
+[2023.01.19-23.49.11:777][540]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2023.01.19-23.49.11:778][540]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 664372AE226DFA5FE6C04A58FE8E35AA5D402F08), compiling. 
+[2023.01.19-23.49.11:782][540]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2023.01.19-23.49.32:019][182]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: DB1242A29AC47672D59CB4BB006E340F80F06930), compiling. 
+[2023.01.19-23.49.32:021][182]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.19-23.49.32:021][182]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.01.19-23.49.32:021][182]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.49.32:021][182]MaterialEditorStats: Shader Count: 0
+[2023.01.19-23.49.32:066][184]MaterialEditorStats: Texture samplers: 3/16
+[2023.01.19-23.49.32:066][184]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.01.19-23.49.32:066][184]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.49.32:066][184]MaterialEditorStats: Shader Count: 4
+[2023.01.19-23.49.35:163][327]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 384F250EB1978DAB92F24C63B2AC51A77E74AC27), compiling. 
+[2023.01.19-23.49.35:165][327]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 669968422131B6945BDCA46A52EBFCF8CB825E63), compiling. 
+[2023.01.19-23.49.35:167][327]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 5F82E7BD92F553219E0F89A23B7AF4478630DAF9), compiling. 
+[2023.01.19-23.49.35:169][327]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 82102C85410FA84AC6DA32B303DA9BCA1C835AE3), compiling. 
+[2023.01.19-23.49.35:172][327]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.19-23.49.35:172][327]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.01.19-23.49.35:172][327]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.49.35:172][327]MaterialEditorStats: Shader Count: 0
+[2023.01.19-23.49.35:233][329]MaterialEditorStats: Texture samplers: 3/16
+[2023.01.19-23.49.35:233][329]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.01.19-23.49.35:233][329]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.49.35:233][329]MaterialEditorStats: Shader Count: 4
+[2023.01.19-23.49.45:867][614]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 14CDCB14D7E628F5869024B30E959BC87D33C048), compiling. 
+[2023.01.19-23.49.45:869][614]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: A14F502BE045D69B0E63DE6364F719BE4A38912A), compiling. 
+[2023.01.19-23.49.45:873][614]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.19-23.49.45:873][614]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.01.19-23.49.45:873][614]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.49.45:873][614]MaterialEditorStats: Shader Count: 0
+[2023.01.19-23.49.46:965][666]MaterialEditorStats: Texture samplers: 4/16
+[2023.01.19-23.49.46:965][666]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.01.19-23.49.46:965][666]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.49.46:965][666]MaterialEditorStats: Shader Count: 1
+[2023.01.19-23.49.56:369][103]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: F307B7149E789A218B92928B99853645657CB576), compiling. 
+[2023.01.19-23.49.56:374][103]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.19-23.49.56:374][103]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.01.19-23.49.56:374][103]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.49.56:374][103]MaterialEditorStats: Shader Count: 0
+[2023.01.19-23.49.57:366][151]MaterialEditorStats: Texture samplers: 3/16
+[2023.01.19-23.49.57:366][151]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.01.19-23.49.57:366][151]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.49.57:366][151]MaterialEditorStats: Shader Count: 2
+[2023.01.19-23.49.59:595][252]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: A98298C2B3BC8DD3808AC9BA521768E5DDA23880), compiling. 
+[2023.01.19-23.49.59:597][252]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 830476206FDBF023E1B6090F8B4D338F8EE941BD), compiling. 
+[2023.01.19-23.49.59:602][252]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.19-23.49.59:602][252]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.01.19-23.49.59:602][252]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.49.59:602][252]MaterialEditorStats: Shader Count: 0
+[2023.01.19-23.49.59:629][254]MaterialEditorStats: Texture samplers: 4/16
+[2023.01.19-23.49.59:629][254]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.01.19-23.49.59:629][254]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.49.59:629][254]MaterialEditorStats: Shader Count: 2
+[2023.01.19-23.50.18:934][544]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 85F4EADF451C07D583DFCDAE90757DA12543AC25), compiling. 
+[2023.01.19-23.50.18:952][544]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.19-23.50.18:952][544]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.01.19-23.50.18:952][544]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.50.18:952][544]MaterialEditorStats: Shader Count: 0
+[2023.01.19-23.50.19:024][546]MaterialEditorStats: Texture samplers: 4/16
+[2023.01.19-23.50.19:024][546]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.01.19-23.50.19:024][546]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.50.19:024][546]MaterialEditorStats: Shader Count: 4
+[2023.01.19-23.50.20:246][604]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: DE5EC94037624E1D737C798B25FA2DD37BDDF24B), compiling. 
+[2023.01.19-23.50.20:252][604]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: DA3D1ED8F5E0AE4360CF5AB2A7AE72A6D9592805), compiling. 
+[2023.01.19-23.50.20:258][604]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: AA5279DEDD953F6E2A29D3548D16DF3F22C062FF), compiling. 
+[2023.01.19-23.50.20:266][604]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.19-23.50.20:266][604]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.01.19-23.50.20:266][604]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.50.20:266][604]MaterialEditorStats: Shader Count: 0
+[2023.01.19-23.50.21:437][663]MaterialEditorStats: Texture samplers: 3/16
+[2023.01.19-23.50.21:437][663]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.01.19-23.50.21:437][663]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.50.21:437][663]MaterialEditorStats: Shader Count: 1
+[2023.01.19-23.50.40:996][845]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 13E705845BBB1EAD0DC8DA3C8915463DC2071D9C), compiling. 
+[2023.01.19-23.50.41:174][845]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.19-23.50.41:174][845]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.01.19-23.50.41:174][845]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.50.41:174][845]MaterialEditorStats: Shader Count: 0
+[2023.01.19-23.50.41:261][847]LogShaderCompilers: Display: ================================================
+[2023.01.19-23.50.41:261][847]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.01.19-23.50.41:261][847]LogShaderCompilers: Display: Total job queries 117, among them cache hits 75 (64.10%)
+[2023.01.19-23.50.41:261][847]LogShaderCompilers: Display: Tracking 22 distinct input hashes that result in 11 distinct outputs (50.00%)
+[2023.01.19-23.50.41:261][847]LogShaderCompilers: Display: RAM used: 0.02 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2023.01.19-23.50.41:261][847]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.01.19-23.50.41:261][847]LogShaderCompilers: Display: Shaders Compiled: 32
+[2023.01.19-23.50.41:261][847]LogShaderCompilers: Display: Jobs assigned 22, completed 22 (100.00%)
+[2023.01.19-23.50.41:261][847]LogShaderCompilers: Display: Average time worker was idle: 16.11 s
+[2023.01.19-23.50.41:261][847]LogShaderCompilers: Display: Time job spent in pending queue: average 0.64 s, longest 3.37 s
+[2023.01.19-23.50.41:261][847]LogShaderCompilers: Display: Job execution time: average 1.11 s, max 3.29 s
+[2023.01.19-23.50.41:261][847]LogShaderCompilers: Display: Job life time (pending + execution): average 1.75 s, max 3.97
+[2023.01.19-23.50.41:261][847]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 13.61 s
+[2023.01.19-23.50.41:261][847]LogShaderCompilers: Display: Jobs were issued in 22 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.01.19-23.50.41:261][847]LogShaderCompilers: Display: Average processing rate: 1.62 jobs/sec
+[2023.01.19-23.50.41:261][847]LogShaderCompilers: Display: Effective parallelization: 1.23 (times faster than compiling all shaders on one thread). Compare with number of workers: 2
+[2023.01.19-23.50.41:261][847]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.01.19-23.50.41:261][847]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    7 times, average 0.92 sec, max 1.14 sec, min 0.73 sec)
+[2023.01.19-23.50.41:261][847]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.90 sec, max 0.90 sec, min 0.90 sec)
+[2023.01.19-23.50.41:261][847]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    6 times, average 0.81 sec, max 0.98 sec, min 0.67 sec)
+[2023.01.19-23.50.41:261][847]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    4 times, average 0.76 sec, max 1.00 sec, min 0.62 sec)
+[2023.01.19-23.50.41:261][847]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    4 times, average 0.36 sec, max 0.56 sec, min 0.27 sec)
+[2023.01.19-23.50.41:261][847]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.01.19-23.50.41:261][847]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 38.47% of total time (compiled    7 times, average 0.92 sec, max 1.14 sec, min 0.73 sec)
+[2023.01.19-23.50.41:261][847]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 29.22% of total time (compiled    6 times, average 0.81 sec, max 0.98 sec, min 0.67 sec)
+[2023.01.19-23.50.41:261][847]LogShaderCompilers: Display:                                                 FLumenCardVS - 18.26% of total time (compiled    4 times, average 0.76 sec, max 1.00 sec, min 0.62 sec)
+[2023.01.19-23.50.41:261][847]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 8.65% of total time (compiled    4 times, average 0.36 sec, max 0.56 sec, min 0.27 sec)
+[2023.01.19-23.50.41:261][847]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 5.40% of total time (compiled    1 times, average 0.90 sec, max 0.90 sec, min 0.90 sec)
+[2023.01.19-23.50.41:261][847]LogShaderCompilers: Display: ================================================
+[2023.01.19-23.50.41:321][848]MaterialEditorStats: Texture samplers: 3/16
+[2023.01.19-23.50.41:321][848]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.01.19-23.50.41:321][848]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.50.41:321][848]MaterialEditorStats: Shader Count: 2
+[2023.01.19-23.50.42:220][889]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 3A2E4A81D95370B21CE0DA7FB62ADEDE076B7535), compiling. 
+[2023.01.19-23.50.42:225][889]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 79087618171572FB161422E19D525BACA54564DE), compiling. 
+[2023.01.19-23.50.42:230][889]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 71D41DE9CA3F2F107EF1E19DDF3CE56AE3F6443D), compiling. 
+[2023.01.19-23.50.42:237][889]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.19-23.50.42:237][889]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.01.19-23.50.42:237][889]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.50.42:237][889]MaterialEditorStats: Shader Count: 0
+[2023.01.19-23.50.43:675][959]MaterialEditorStats: Texture samplers: 4/16
+[2023.01.19-23.50.43:675][959]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.01.19-23.50.43:675][959]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.50.43:675][959]MaterialEditorStats: Shader Count: 1
+[2023.01.19-23.51.04:628][181]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: F8C9CB23C3CD2209724018EA9A14A85B068A0A2D), compiling. 
+[2023.01.19-23.51.04:630][181]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 3DA9287834C6E7695E66118B97AE1673391C0D34), compiling. 
+[2023.01.19-23.51.04:634][181]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.19-23.51.04:634][181]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.01.19-23.51.04:634][181]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.51.04:634][181]MaterialEditorStats: Shader Count: 0
+[2023.01.19-23.51.06:011][248]MaterialEditorStats: Texture samplers: 4/16
+[2023.01.19-23.51.06:011][248]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.01.19-23.51.06:011][248]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.51.06:011][248]MaterialEditorStats: Shader Count: 1
+[2023.01.19-23.51.22:333][859]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 1DB2A042D96FE00709C05E9CF787DEF2C853F95D), compiling. 
+[2023.01.19-23.51.22:355][859]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.19-23.51.22:355][859]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.01.19-23.51.22:355][859]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.51.22:355][859]MaterialEditorStats: Shader Count: 0
+[2023.01.19-23.51.22:413][861]MaterialEditorStats: Texture samplers: 4/16
+[2023.01.19-23.51.22:413][861]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.01.19-23.51.22:413][861]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.51.22:413][861]MaterialEditorStats: Shader Count: 2
+[2023.01.19-23.51.38:049][133]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 603F766AFD3A480586AE8D6549DABCFADBE1C35A), compiling. 
+[2023.01.19-23.51.38:053][133]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.19-23.51.38:053][133]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.01.19-23.51.38:053][133]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.51.38:053][133]MaterialEditorStats: Shader Count: 0
+[2023.01.19-23.51.38:169][137]MaterialEditorStats: Texture samplers: 4/16
+[2023.01.19-23.51.38:169][137]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.01.19-23.51.38:169][137]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.51.38:169][137]MaterialEditorStats: Shader Count: 2
+[2023.01.19-23.52.23:823][848]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 9E37847B10B97CABC4A3726036AA36F693B9596E), compiling. 
+[2023.01.19-23.52.23:829][848]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 0BC232C2143574866C5147713CD5B56111461064), compiling. 
+[2023.01.19-23.52.23:834][848]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: EB091CDBEED85BCFA37FC58576625BFDD028F1B9), compiling. 
+[2023.01.19-23.52.23:837][848]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.19-23.52.23:837][848]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.01.19-23.52.23:837][848]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.52.23:837][848]MaterialEditorStats: Shader Count: 0
+[2023.01.19-23.52.25:694][928]MaterialEditorStats: Texture samplers: 3/16
+[2023.01.19-23.52.25:694][928]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.01.19-23.52.25:694][928]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.52.25:694][928]MaterialEditorStats: Shader Count: 3
+[2023.01.19-23.52.25:998][943]MaterialEditorStats: Texture samplers: 4/16
+[2023.01.19-23.52.25:998][943]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.01.19-23.52.25:998][943]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.52.25:998][943]MaterialEditorStats: Shader Count: 4
+[2023.01.19-23.52.50:879][210]LogMaterialEditor: Applying material 01_-_Default
+[2023.01.19-23.52.53:930][210]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: BBE753B01EF8135EF81DBF595C7C5F6BDD008E6D), compiling. 
+[2023.01.19-23.52.53:944][210]LogMaterial: Display: Missing cached shadermap for 01_-_Default in PCD3D_SM5, Default, SM5 (DDC key hash: 5423D9E93C11A90E1E4525F35A28323F874732D9), compiling. 
+[2023.01.19-23.52.54:087][210]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2023.01.19-23.52.55:447][210]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2023.01.19-23.52.55:482][210]MaterialEditorStats: Texture samplers: 2/16
+[2023.01.19-23.52.55:482][210]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.01.19-23.52.55:482][210]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.52.55:482][210]MaterialEditorStats: Shader Count: 2
+[2023.01.19-23.52.56:728][271]MaterialEditorStats: Texture samplers: 4/16
+[2023.01.19-23.52.56:728][271]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.01.19-23.52.56:728][271]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.52.56:728][271]MaterialEditorStats: Shader Count: 3
+[2023.01.19-23.52.57:571][311]LogSlate: Window '01_-_Default' being destroyed
+[2023.01.19-23.52.57:587][311]LogSlate: Window '01_-_Default' being destroyed
+[2023.01.19-23.52.57:597][311]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2023.01.19-23.52.57:597][311]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.19-23.53.01:322][518]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/folha/Leaf_SM.Leaf_SM
+[2023.01.19-23.53.01:403][518]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.19-23.53.01:713][518]LogViewport: Scene viewport resized to 1405x894, mode Windowed.
+[2023.01.19-23.53.15:533][ 41]LogSlate: Window 'Leaf_SM' being destroyed
+[2023.01.19-23.53.15:591][ 41]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2023.01.19-23.53.15:591][ 41]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.19-23.53.24:504][316]LogSlate: Window 'Content Browser' being destroyed
+[2023.01.19-23.53.24:527][316]LogSlate: Window 'Content Browser' being destroyed
+[2023.01.19-23.53.25:950][399]LogSlate: Window 'Message Log' being destroyed
+[2023.01.19-23.53.25:973][399]LogSlate: Window 'Message Log' being destroyed
+[2023.01.19-23.54.35:388][391]LogSlate: Window 'Pick a starting point for your system' being destroyed
+[2023.01.19-23.56.06:366][508]LogSlate: Window 'Pick a starting point for your system' being destroyed
+[2023.01.19-23.56.07:467][508]LogContentBrowser: Deferred new asset file creation: NewNiagaraSystem
+[2023.01.19-23.56.07:492][508]LogContentBrowser: Creating deferred item: NewNiagaraSystem
+[2023.01.19-23.56.07:528][509]LogContentBrowser: Renaming the item being created (Deferred Item: NewNiagaraSystem).
+[2023.01.19-23.56.16:262][987]LogContentBrowser: Attempting asset rename: NewNiagaraSystem -> leafs_P
+[2023.01.19-23.56.16:503][987]LogContentBrowser: End creating deferred item NewNiagaraSystem
+[2023.01.19-23.56.17:205][ 17]LogShaderCompilers: Display: ================================================
+[2023.01.19-23.56.17:205][ 17]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.01.19-23.56.17:205][ 17]LogShaderCompilers: Display: Total job queries 175, among them cache hits 115 (65.71%)
+[2023.01.19-23.56.17:205][ 17]LogShaderCompilers: Display: Tracking 37 distinct input hashes that result in 19 distinct outputs (51.35%)
+[2023.01.19-23.56.17:206][ 17]LogShaderCompilers: Display: RAM used: 0.05 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.01%
+[2023.01.19-23.56.17:206][ 17]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.01.19-23.56.17:206][ 17]LogShaderCompilers: Display: Shaders Compiled: 37
+[2023.01.19-23.56.17:206][ 17]LogShaderCompilers: Display: Jobs assigned 40, completed 37 (92.50%)
+[2023.01.19-23.56.17:206][ 17]LogShaderCompilers: Display: Average time worker was idle: 28.28 s
+[2023.01.19-23.56.17:206][ 17]LogShaderCompilers: Display: Time job spent in pending queue: average 0.41 s, longest 3.37 s
+[2023.01.19-23.56.17:206][ 17]LogShaderCompilers: Display: Job execution time: average 1.07 s, max 3.29 s
+[2023.01.19-23.56.17:206][ 17]LogShaderCompilers: Display: Job life time (pending + execution): average 1.51 s, max 3.97
+[2023.01.19-23.56.17:206][ 17]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 22.40 s
+[2023.01.19-23.56.17:206][ 17]LogShaderCompilers: Display: Jobs were issued in 38 batches (only local compilation was used), average 1.05 jobs/batch
+[2023.01.19-23.56.17:206][ 17]LogShaderCompilers: Display: Average processing rate: 1.65 jobs/sec
+[2023.01.19-23.56.17:206][ 17]LogShaderCompilers: Display: Effective parallelization: 1.29 (times faster than compiling all shaders on one thread). Compare with number of workers: 2
+[2023.01.19-23.56.17:206][ 17]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.01.19-23.56.17:206][ 17]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   11 times, average 1.00 sec, max 1.23 sec, min 0.73 sec)
+[2023.01.19-23.56.17:206][ 17]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    5 times, average 0.96 sec, max 1.06 sec, min 0.78 sec)
+[2023.01.19-23.56.17:206][ 17]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    6 times, average 0.81 sec, max 0.98 sec, min 0.67 sec)
+[2023.01.19-23.56.17:206][ 17]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    2 times, average 0.77 sec, max 0.88 sec, min 0.67 sec)
+[2023.01.19-23.56.17:206][ 17]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    4 times, average 0.76 sec, max 1.00 sec, min 0.62 sec)
+[2023.01.19-23.56.17:206][ 17]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.01.19-23.56.17:206][ 17]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 38.07% of total time (compiled   11 times, average 1.00 sec, max 1.23 sec, min 0.73 sec)
+[2023.01.19-23.56.17:206][ 17]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 16.83% of total time (compiled    6 times, average 0.81 sec, max 0.98 sec, min 0.67 sec)
+[2023.01.19-23.56.17:206][ 17]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 16.52% of total time (compiled    5 times, average 0.96 sec, max 1.06 sec, min 0.78 sec)
+[2023.01.19-23.56.17:206][ 17]LogShaderCompilers: Display:                                                 FLumenCardVS - 10.51% of total time (compiled    4 times, average 0.76 sec, max 1.00 sec, min 0.62 sec)
+[2023.01.19-23.56.17:206][ 17]LogShaderCompilers: Display:                                                  FHitProxyVS - 5.35% of total time (compiled    2 times, average 0.77 sec, max 0.88 sec, min 0.67 sec)
+[2023.01.19-23.56.17:206][ 17]LogShaderCompilers: Display: ================================================
+[2023.01.19-23.56.18:770][ 47]LogNiagara: Compiling System NiagaraSystem /Game/folha/leafs_P.leafs_P took 2.366937 sec (time since issued), 5.765937 sec (combined shader worker time).
+[2023.01.19-23.56.19:713][ 50]LogNiagara: Warning: For some reason we are reporting that /Game/folha/leafs_P.leafs_P:DirectionalBurst.SpawnScript is in sync even though AreScriptAndSourceSynchronized returned false!
+[2023.01.19-23.56.19:715][ 50]LogNiagara: Warning: For some reason we are reporting that /Game/folha/leafs_P.leafs_P:DirectionalBurst.UpdateScript is in sync even though AreScriptAndSourceSynchronized returned false!
+[2023.01.19-23.56.19:715][ 50]LogNiagara: Warning: For some reason we are reporting that /Game/folha/leafs_P.leafs_P:SystemSpawnScript is in sync even though AreScriptAndSourceSynchronized returned false!
+[2023.01.19-23.56.20:049][ 51]LogNiagara: Warning: For some reason we are reporting that /Game/folha/leafs_P.leafs_P:SystemUpdateScript is in sync even though AreScriptAndSourceSynchronized returned false!
+[2023.01.19-23.56.20:053][ 51]LogNiagara: Compiling System NiagaraSystem /Game/folha/leafs_P.leafs_P took 3.565168 sec, no shader worker used.
+[2023.01.19-23.56.22:055][ 57]LogAssetEditorSubsystem: Opening Asset editor for NiagaraSystem /Game/folha/leafs_P.leafs_P
+[2023.01.19-23.56.23:848][ 57]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.19-23.56.24:007][ 57]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.19-23.56.26:199][ 57]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
+[2023.01.19-23.56.26:199][ 57]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.036435s
+[2023.01.19-23.56.26:199][ 57]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.000589s (0.259849s overbudget)
+[2023.01.19-23.56.27:006][ 57]LogViewport: Scene viewport resized to 355x642, mode Windowed.
+[2023.01.19-23.56.27:799][ 64]LogNiagara: Compiling System NiagaraSystem /Game/folha/leafs_P.leafs_P took 4.710340 sec (time since issued), 6.061092 sec (combined shader worker time).
+[2023.01.19-23.56.28:213][ 71]80787_leafs_P_MessageLog: System successfully compiled.
+[2023.01.19-23.56.50:739][126]Cmd: TRANSACTION UNDO
+[2023.01.19-23.56.50:760][126]LogEditorTransaction: Undo Resize section
+[2023.01.19-23.56.50:809][126]LogNiagara: Compiling System NiagaraSystem /Game/folha/leafs_P.leafs_P took 0.025585 sec, no shader worker used.
+[2023.01.19-23.56.51:291][132]80787_leafs_P_MessageLog: System successfully compiled.
+[2023.01.19-23.57.13:715][642]LogSlate: Window 'Save Asset As' being destroyed
+[2023.01.19-23.57.14:124][648]80787_leafs_P_MessageLog: System successfully compiled.
+[2023.01.19-23.57.19:717][907]LogAssetEditorSubsystem: Opening Asset editor for Material /Niagara/DefaultAssets/DefaultSpriteMaterial.DefaultSpriteMaterial
+[2023.01.19-23.57.19:719][907]LogMaterial: Display: Missing cached shadermap for Preview:DefaultSpriteMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: 29F73376D79F393EFB6FDFFAB5BD91D9CCB3B3EA), compiling. 
+[2023.01.19-23.57.19:779][907]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.19-23.57.19:835][907]LogMaterial: Display: Missing cached shadermap for Preview:DefaultSpriteMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: 7258FF0BE90E2E21E45AEE1D7E2EE55726CE319C), compiling. 
+[2023.01.19-23.57.19:840][907]LogMaterial: Display: Missing cached shadermap for Preview:DefaultSpriteMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: D89EA19812220310DFED1A74FA464CFA324D6300), compiling. 
+[2023.01.19-23.57.19:866][907]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.19-23.57.19:866][907]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(0)
+[2023.01.19-23.57.19:866][907]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.57.19:866][907]MaterialEditorStats: Shader Count: 0
+[2023.01.19-23.57.19:872][907]LogViewport: Scene viewport resized to 376x445, mode Windowed.
+[2023.01.19-23.57.22:629][ 43]MaterialEditorStats: Texture samplers: 1/16
+[2023.01.19-23.57.22:629][ 43]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(0)
+[2023.01.19-23.57.22:629][ 43]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.19-23.57.22:629][ 43]MaterialEditorStats: Shader Count: 5
+[2023.01.19-23.57.23:083][ 65]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2023.01.19-23.57.23:083][ 65]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.19-23.57.26:579][198]LogMaterial: Display: Material /Game/folha/01_-_Default.01_-_Default needed to have new flag set bUsedWithNiagaraSprites !
+[2023.01.19-23.57.26:584][198]LogMaterial: Display: Missing cached shadermap for 01_-_Default in PCD3D_SM5, Default, SM5 (DDC key hash: C095DEF161B7DD097CAC7956EC9D250E48681B24), compiling. 
+[2023.01.19-23.57.41:217][837]Cmd: TRANSACTION UNDO
+[2023.01.19-23.57.41:217][837]LogEditorTransaction: Undo Edit Material
+[2023.01.19-23.57.41:781][843]80787_leafs_P_MessageLog: System successfully compiled.
+[2023.01.19-23.57.44:287][962]Cmd: TRANSACTION UNDO
+[2023.01.19-23.57.44:287][962]LogEditorTransaction: Undo Edit Effect Type
+[2023.01.19-23.57.44:329][962]LogNiagara: Compiling System NiagaraSystem /Game/folha/leafs_P.leafs_P took 0.027509 sec, no shader worker used.
+[2023.01.19-23.57.44:848][968]80787_leafs_P_MessageLog: System successfully compiled.
+[2023.01.19-23.57.45:599][  5]Cmd: TRANSACTION UNDO
+[2023.01.19-23.57.45:599][  5]LogEditorTransaction: Undo Edit Two Sided
+[2023.01.19-23.57.45:626][  5]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 17A3D6F2E2445107570A88D1229F5A713DD21E3D), compiling. 
+[2023.01.19-23.57.46:318][ 30]Cmd: TRANSACTION UNDO
+[2023.01.19-23.57.46:318][ 30]LogEditorTransaction: Undo Create Pin Link
+[2023.01.19-23.57.46:342][ 30]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 4B4E1B307E30CA0CCDB030EFA769BF574B0E0151), compiling. 
+[2023.01.19-23.57.46:859][ 46]80787_leafs_P_MessageLog: System successfully compiled.
+[2023.01.19-23.57.47:049][ 55]Cmd: TRANSACTION UNDO
+[2023.01.19-23.57.47:049][ 55]LogEditorTransaction: Undo Edit Lighting Mode
+[2023.01.19-23.57.47:074][ 55]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: E88D1A6A3DB22836AD7C58C1372A9551764A9999), compiling. 
+[2023.01.19-23.57.47:765][ 79]Cmd: TRANSACTION UNDO
+[2023.01.19-23.57.47:765][ 79]LogEditorTransaction: Undo Edit Blend Mode
+[2023.01.19-23.57.47:787][ 79]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: C0846CA3B26978282DF1938D6630D0C2C25DDDC5), compiling. 
+[2023.01.19-23.57.48:357][ 98]Cmd: TRANSACTION UNDO
+[2023.01.19-23.57.48:357][ 98]LogEditorTransaction: Undo Create Pin Link
+[2023.01.19-23.57.48:379][ 98]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: C0AE1C5ED72CA3AC720D00C9607A45C1CA4AE251), compiling. 
+[2023.01.19-23.57.48:880][113]80787_leafs_P_MessageLog: System successfully compiled.
+[2023.01.19-23.57.49:173][127]Cmd: TRANSACTION UNDO
+[2023.01.19-23.57.49:173][127]LogEditorTransaction: Undo Break Node Links
+[2023.01.19-23.57.49:197][127]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: B5FE0879D1BAA1C728532D97E5FE1A2FE97E35A7), compiling. 
+[2023.01.19-23.57.49:739][144]Cmd: TRANSACTION UNDO
+[2023.01.19-23.57.49:739][144]LogEditorTransaction: Undo Create Pin Link
+[2023.01.19-23.57.49:763][144]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 14E65CD453566DBA3FDA4B835EBB143E92EAB53E), compiling. 
+[2023.01.19-23.57.50:449][168]Cmd: TRANSACTION UNDO
+[2023.01.19-23.57.50:449][168]LogEditorTransaction: Undo Move Node
+[2023.01.19-23.57.50:637][169]Cmd: TRANSACTION UNDO
+[2023.01.19-23.57.50:637][169]LogEditorTransaction: Undo Material Editor: New Expression
+[2023.01.19-23.57.50:641][169]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 13736A5F92310E7B93792336B929209E3BAC323D), compiling. 
+[2023.01.19-23.57.50:910][170]80787_leafs_P_MessageLog: System successfully compiled.
+[2023.01.19-23.57.50:952][171]Cmd: TRANSACTION UNDO
+[2023.01.19-23.57.50:954][171]LogEditorTransaction: Undo Material Editor: Delete
+[2023.01.19-23.57.50:958][171]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: A7E8EC59FB7D69416BC8629E5CA169BC328D52E7), compiling. 
+[2023.01.19-23.57.50:958][171]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2023.01.19-23.57.51:113][171]Cmd: TRANSACTION UNDO
+[2023.01.19-23.57.51:113][171]LogEditorTransaction: Undo Move Node
+[2023.01.19-23.57.51:367][173]Cmd: TRANSACTION UNDO
+[2023.01.19-23.57.51:369][173]LogEditorTransaction: Undo Material Editor: New Expression
+[2023.01.19-23.57.51:373][173]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 4B7C27C0B7883D04A32D687928971A37C3F71DE7), compiling. 
+[2023.01.19-23.57.52:916][231]80787_leafs_P_MessageLog: System successfully compiled.
+[2023.01.19-23.58.49:273][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/folha/leafs_P" FILE="../../../../../../Documentos/UE5/Projects/Teste/Content/folha/leafs_P.uasset" SILENT=true
+[2023.01.19-23.58.49:332][777]LogSavePackage: Moving output files for package: /Game/folha/leafs_P
+[2023.01.19-23.58.49:332][777]LogSavePackage: Moving '../../../../../../Documentos/UE5/Projects/Teste/Saved/leafs_PFA3117C7454E78041CB0218F329C057E.tmp' to '../../../../../../Documentos/UE5/Projects/Teste/Content/folha/leafs_P.uasset'
+[2023.01.19-23.58.49:351][777]AssetCheck: New page: Asset Save: leafs_P
+[2023.01.19-23.58.49:351][777]LogContentValidation: Display: Validating NiagaraSystem /Game/folha/leafs_P.leafs_P
+[2023.01.19-23.59.49:502][709]LogMaterial: Display: Material /Game/ThirdPerson/Maps/Fbx_Default_Material.Fbx_Default_Material needed to have new flag set bUsedWithNiagaraSprites !
+[2023.01.19-23.59.49:506][709]LogMaterial: Display: Missing cached shadermap for Fbx_Default_Material in PCD3D_SM5, Default, SM5 (DDC key hash: 0A5E3212F4B5F06C8C128F6CA54BE180DC6030C0), compiling. 
+[2023.01.19-23.59.50:764][756]LogShaderCompilers: Display: ================================================
+[2023.01.19-23.59.50:764][756]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.01.19-23.59.50:765][756]LogShaderCompilers: Display: Total job queries 348, among them cache hits 130 (37.36%)
+[2023.01.19-23.59.50:765][756]LogShaderCompilers: Display: Tracking 128 distinct input hashes that result in 67 distinct outputs (52.34%)
+[2023.01.19-23.59.50:765][756]LogShaderCompilers: Display: RAM used: 0.27 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.03%
+[2023.01.19-23.59.50:765][756]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.01.19-23.59.50:765][756]LogShaderCompilers: Display: Shaders Compiled: 193
+[2023.01.19-23.59.50:765][756]LogShaderCompilers: Display: Jobs assigned 139, completed 128 (92.09%)
+[2023.01.19-23.59.50:765][756]LogShaderCompilers: Display: Average time worker was idle: 23.27 s
+[2023.01.19-23.59.50:765][756]LogShaderCompilers: Display: Time job spent in pending queue: average 7.29 s, longest 29.34 s
+[2023.01.19-23.59.50:765][756]LogShaderCompilers: Display: Job execution time: average 4.73 s, max 8.87 s
+[2023.01.19-23.59.50:765][756]LogShaderCompilers: Display: Job life time (pending + execution): average 12.54 s, max 32.06
+[2023.01.19-23.59.50:765][756]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 59.84 s
+[2023.01.19-23.59.50:765][756]LogShaderCompilers: Display: Jobs were issued in 61 batches (only local compilation was used), average 2.28 jobs/batch
+[2023.01.19-23.59.50:765][756]LogShaderCompilers: Display: Average processing rate: 2.14 jobs/sec
+[2023.01.19-23.59.50:765][756]LogShaderCompilers: Display: Effective parallelization: 1.60 (times faster than compiling all shaders on one thread). Compare with number of workers: 2
+[2023.01.19-23.59.50:765][756]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.01.19-23.59.50:765][756]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled    3 times, average 1.12 sec, max 1.30 sec, min 0.94 sec)
+[2023.01.19-23.59.50:765][756]LogShaderCompilers: Display:    TBasePassVSFSelfShadowedCachedPointIndirectLightingPolicy (compiled    3 times, average 1.07 sec, max 1.17 sec, min 0.97 sec)
+[2023.01.19-23.59.50:765][756]LogShaderCompilers: Display:                   TBasePassVSFSelfShadowedTranslucencyPolicy (compiled    3 times, average 1.06 sec, max 1.12 sec, min 0.99 sec)
+[2023.01.19-23.59.50:765][756]LogShaderCompilers: Display:                TBasePassVSFCachedPointIndirectLightingPolicy (compiled    3 times, average 1.06 sec, max 1.15 sec, min 0.96 sec)
+[2023.01.19-23.59.50:765][756]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   14 times, average 1.04 sec, max 1.33 sec, min 0.73 sec)
+[2023.01.19-23.59.50:765][756]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.01.19-23.59.50:765][756]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 15.19% of total time (compiled   14 times, average 1.04 sec, max 1.33 sec, min 0.73 sec)
+[2023.01.19-23.59.50:765][756]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.80% of total time (compiled   11 times, average 0.77 sec, max 0.98 sec, min 0.58 sec)
+[2023.01.19-23.59.50:765][756]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 6.42% of total time (compiled    7 times, average 0.88 sec, max 1.06 sec, min 0.67 sec)
+[2023.01.19-23.59.50:765][756]LogShaderCompilers: Display:                                                 FLumenCardVS - 5.66% of total time (compiled    7 times, average 0.78 sec, max 1.00 sec, min 0.62 sec)
+[2023.01.19-23.59.50:765][756]LogShaderCompilers: Display:                                                  FHitProxyVS - 4.24% of total time (compiled    5 times, average 0.81 sec, max 1.06 sec, min 0.63 sec)
+[2023.01.19-23.59.50:765][756]LogShaderCompilers: Display: ================================================
+[2023.01.20-00.00.03:554][310]LogSlate: Window 'leafs_P' being destroyed
+[2023.01.20-00.00.03:707][310]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-00.00.03:707][310]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-00.00.03:738][310]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-00.00.03:738][310]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-00.00.04:050][310]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2023.01.20-00.00.17:972][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2023.01.20-00.00.19:278][ 62]LogSlate: Window 'Delete Assets' being destroyed
+[2023.01.20-00.00.19:313][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.01.20-00.00.19:341][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.01.20-00.00.19:364][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.01.20-00.00.20:923][147]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.01.20-00.00.22:275][147]LogSlate: Window 'Delete Assets' being destroyed
+[2023.01.20-00.00.22:308][147]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.01.20-00.00.22:333][147]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.01.20-00.00.22:356][147]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.01.20-00.02.49:493][774]LogSlate: Window 'Pick a starting point for your system' being destroyed
+[2023.01.20-00.02.49:501][774]LogContentBrowser: Deferred new asset file creation: NewNiagaraSystem
+[2023.01.20-00.02.49:507][774]LogContentBrowser: Creating deferred item: NewNiagaraSystem
+[2023.01.20-00.02.49:515][775]LogContentBrowser: Renaming the item being created (Deferred Item: NewNiagaraSystem).
+[2023.01.20-00.03.08:076][231]LogContentBrowser: Attempting asset rename: NewNiagaraSystem -> LeafSystem
+[2023.01.20-00.03.08:082][231]LogContentBrowser: End creating deferred item NewNiagaraSystem
+[2023.01.20-00.03.08:436][251]LogShaderCompilers: Display: ================================================
+[2023.01.20-00.03.08:436][251]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.01.20-00.03.08:436][251]LogShaderCompilers: Display: Total job queries 350, among them cache hits 130 (37.14%)
+[2023.01.20-00.03.08:436][251]LogShaderCompilers: Display: Tracking 176 distinct input hashes that result in 88 distinct outputs (50.00%)
+[2023.01.20-00.03.08:436][251]LogShaderCompilers: Display: RAM used: 0.32 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.04%
+[2023.01.20-00.03.08:436][251]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.01.20-00.03.08:436][251]LogShaderCompilers: Display: Shaders Compiled: 193
+[2023.01.20-00.03.08:436][251]LogShaderCompilers: Display: Jobs assigned 177, completed 176 (99.44%)
+[2023.01.20-00.03.08:436][251]LogShaderCompilers: Display: Average time worker was idle: 26.22 s
+[2023.01.20-00.03.08:436][251]LogShaderCompilers: Display: Time job spent in pending queue: average 7.48 s, longest 29.34 s
+[2023.01.20-00.03.08:436][251]LogShaderCompilers: Display: Job execution time: average 5.33 s, max 8.97 s
+[2023.01.20-00.03.08:436][251]LogShaderCompilers: Display: Job life time (pending + execution): average 12.85 s, max 32.06
+[2023.01.20-00.03.08:436][251]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 79.20 s
+[2023.01.20-00.03.08:436][251]LogShaderCompilers: Display: Jobs were issued in 68 batches (only local compilation was used), average 2.60 jobs/batch
+[2023.01.20-00.03.08:436][251]LogShaderCompilers: Display: Average processing rate: 2.22 jobs/sec
+[2023.01.20-00.03.08:436][251]LogShaderCompilers: Display: Effective parallelization: 1.69 (times faster than compiling all shaders on one thread). Compare with number of workers: 2
+[2023.01.20-00.03.08:436][251]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.01.20-00.03.08:436][251]LogShaderCompilers: Display:    TBasePassVSFSelfShadowedCachedPointIndirectLightingPolicy (compiled    3 times, average 1.07 sec, max 1.17 sec, min 0.97 sec)
+[2023.01.20-00.03.08:436][251]LogShaderCompilers: Display:                   TBasePassVSFSelfShadowedTranslucencyPolicy (compiled    3 times, average 1.06 sec, max 1.12 sec, min 0.99 sec)
+[2023.01.20-00.03.08:436][251]LogShaderCompilers: Display:             TBasePassVSFSelfShadowedVolumetricLightmapPolicy (compiled    3 times, average 1.03 sec, max 1.16 sec, min 0.87 sec)
+[2023.01.20-00.03.08:436][251]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   17 times, average 1.01 sec, max 1.33 sec, min 0.73 sec)
+[2023.01.20-00.03.08:436][251]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled    6 times, average 1.00 sec, max 1.30 sec, min 0.80 sec)
+[2023.01.20-00.03.08:436][251]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.01.20-00.03.08:436][251]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 12.87% of total time (compiled   17 times, average 1.01 sec, max 1.33 sec, min 0.73 sec)
+[2023.01.20-00.03.08:436][251]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 7.38% of total time (compiled   13 times, average 0.76 sec, max 0.98 sec, min 0.58 sec)
+[2023.01.20-00.03.08:436][251]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 6.36% of total time (compiled   10 times, average 0.85 sec, max 1.06 sec, min 0.64 sec)
+[2023.01.20-00.03.08:436][251]LogShaderCompilers: Display:                                                 FLumenCardVS - 6.20% of total time (compiled   10 times, average 0.83 sec, max 1.05 sec, min 0.62 sec)
+[2023.01.20-00.03.08:436][251]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 4.50% of total time (compiled    6 times, average 1.00 sec, max 1.30 sec, min 0.80 sec)
+[2023.01.20-00.03.08:436][251]LogShaderCompilers: Display: ================================================
+[2023.01.20-00.03.08:602][260]LogNiagara: Compiling System NiagaraSystem /Game/folha/LeafSystem.LeafSystem took 0.522873 sec (time since issued), 0.846539 sec (combined shader worker time).
+[2023.01.20-00.03.08:657][263]LogNiagara: Warning: For some reason we are reporting that /Game/folha/LeafSystem.LeafSystem:SystemSpawnScript is in sync even though AreScriptAndSourceSynchronized returned false!
+[2023.01.20-00.03.08:657][263]LogNiagara: Warning: For some reason we are reporting that /Game/folha/LeafSystem.LeafSystem:SystemUpdateScript is in sync even though AreScriptAndSourceSynchronized returned false!
+[2023.01.20-00.03.08:657][263]LogNiagara: Compiling System NiagaraSystem /Game/folha/LeafSystem.LeafSystem took 0.576432 sec, no shader worker used.
+[2023.01.20-00.03.08:812][271]LogAssetEditorSubsystem: Opening Asset editor for NiagaraSystem /Game/folha/LeafSystem.LeafSystem
+[2023.01.20-00.03.08:825][271]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-00.03.08:941][271]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-00.03.09:005][271]LogViewport: Scene viewport resized to 355x642, mode Windowed.
+[2023.01.20-00.03.09:437][289]LogNiagara: Compiling System NiagaraSystem /Game/folha/LeafSystem.LeafSystem took 0.619908 sec (time since issued), 0.959314 sec (combined shader worker time).
+[2023.01.20-00.03.09:745][294]80781_LeafSystem_MessageLog: System successfully compiled.
+[2023.01.20-00.03.37:767][410]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.01.20-00.03.37:769][410]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.054
+[2023.01.20-00.03.37:769][410]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/folha/Leaf_Normal_T] ([1] browsable assets)...
+[2023.01.20-00.03.37:772][410]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/folha/Leaf_Normal_T.Leaf_Normal_T]
+[2023.01.20-00.03.37:772][410]OBJ SavePackage: Finished generating thumbnails for package [/Game/folha/Leaf_Normal_T]
+[2023.01.20-00.03.37:772][410]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/folha/Leaf_Normal_T" FILE="../../../../../../Documentos/UE5/Projects/Teste/Saved/Autosaves/Game/folha/Leaf_Normal_T_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2023.01.20-00.03.37:774][410]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/folha/Leaf_Normal_T_Auto5
+[2023.01.20-00.03.37:774][410]LogSavePackage: Moving '../../../../../../Documentos/UE5/Projects/Teste/Saved/Leaf_Normal_T_Auto508E1B57A454D4F66111768AF15386DAB.tmp' to '../../../../../../Documentos/UE5/Projects/Teste/Saved/Autosaves/Game/folha/Leaf_Normal_T_Auto5.uasset'
+[2023.01.20-00.03.37:775][410]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Maps/Fbx_Default_Material] ([1] browsable assets)...
+[2023.01.20-00.03.37:831][410]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ThirdPerson/Maps/Fbx_Default_Material.Fbx_Default_Material]
+[2023.01.20-00.03.37:831][410]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Maps/Fbx_Default_Material]
+[2023.01.20-00.03.37:833][410]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Maps/Fbx_Default_Material_Auto5
+[2023.01.20-00.03.37:833][410]LogSavePackage: Moving '../../../../../../Documentos/UE5/Projects/Teste/Saved/Fbx_Default_Material_Auto51351D3E3400A04FC2013488336A44A28.tmp' to '../../../../../../Documentos/UE5/Projects/Teste/Saved/Autosaves/Game/ThirdPerson/Maps/Fbx_Default_Material_Auto5.uasset'
+[2023.01.20-00.03.37:833][410]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/folha/LeafSystem] ([1] browsable assets)...
+[2023.01.20-00.03.37:833][410]OBJ SavePackage: Finished generating thumbnails for package [/Game/folha/LeafSystem]
+[2023.01.20-00.03.37:833][410]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/folha/LeafSystem" FILE="../../../../../../Documentos/UE5/Projects/Teste/Saved/Autosaves/Game/folha/LeafSystem_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2023.01.20-00.03.37:841][410]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/folha/LeafSystem_Auto5
+[2023.01.20-00.03.37:841][410]LogSavePackage: Moving '../../../../../../Documentos/UE5/Projects/Teste/Saved/LeafSystem_Auto59A0A9B064908B5D29D2627AE4BB3FD92.tmp' to '../../../../../../Documentos/UE5/Projects/Teste/Saved/Autosaves/Game/folha/LeafSystem_Auto5.uasset'
+[2023.01.20-00.03.37:842][410]LogFileHelpers: Auto-saving content packages took 0.073
+[2023.01.20-00.04.36:538][966]LogNiagara: Compiling System NiagaraSystem /Game/folha/LeafSystem.LeafSystem took 1.341895 sec (time since issued), 3.303851 sec (combined shader worker time).
+[2023.01.20-00.04.36:783][974]80781_LeafSystem_MessageLog: System successfully compiled.
+[2023.01.20-00.05.00:932][  0]Cmd: TRANSACTION UNDO
+[2023.01.20-00.05.00:932][  0]LogEditorTransaction: Undo Edit Macro UVRadius
+[2023.01.20-00.05.01:521][  6]80781_LeafSystem_MessageLog: System successfully compiled.
+[2023.01.20-00.05.10:242][386]Cmd: TRANSACTION UNDO
+[2023.01.20-00.05.10:242][386]LogEditorTransaction: Undo Set Vector Property
+[2023.01.20-00.05.10:803][392]80781_LeafSystem_MessageLog: System successfully compiled.
+[2023.01.20-00.05.33:240][429]Cmd: TRANSACTION UNDO
+[2023.01.20-00.05.33:240][429]LogEditorTransaction: Undo Set Vector Property
+[2023.01.20-00.05.33:801][435]80781_LeafSystem_MessageLog: System successfully compiled.
+[2023.01.20-00.05.33:929][442]Cmd: TRANSACTION UNDO
+[2023.01.20-00.05.33:930][442]LogEditorTransaction: Undo Set Vector Property
+[2023.01.20-00.05.34:519][460]Cmd: TRANSACTION UNDO
+[2023.01.20-00.05.34:519][460]LogEditorTransaction: Undo Set Vector Property
+[2023.01.20-00.05.35:318][488]Cmd: TRANSACTION UNDO
+[2023.01.20-00.05.35:318][488]LogEditorTransaction: Undo Set Vector Property
+[2023.01.20-00.05.35:807][501]80781_LeafSystem_MessageLog: System successfully compiled.
+[2023.01.20-00.05.36:101][515]Cmd: TRANSACTION UNDO
+[2023.01.20-00.05.36:101][515]LogEditorTransaction: Undo Set Vector Property
+[2023.01.20-00.05.36:752][536]Cmd: TRANSACTION UNDO
+[2023.01.20-00.05.36:752][536]LogEditorTransaction: Undo Set Vector Property
+[2023.01.20-00.05.37:389][556]Cmd: TRANSACTION UNDO
+[2023.01.20-00.05.37:389][556]LogEditorTransaction: Undo Set Vector Property
+[2023.01.20-00.05.37:808][566]80781_LeafSystem_MessageLog: System successfully compiled.
+[2023.01.20-00.05.38:020][576]Cmd: TRANSACTION UNDO
+[2023.01.20-00.05.38:020][576]LogEditorTransaction: Undo Set Vector Property
+[2023.01.20-00.05.39:817][651]80781_LeafSystem_MessageLog: System successfully compiled.
+[2023.01.20-00.06.46:452][130]LogMaterial: Display: Material /Game/folha/01_-_Default.01_-_Default needed to have new flag set bUsedWithNiagaraMeshParticles !
+[2023.01.20-00.06.46:460][130]LogMaterial: Display: Missing cached shadermap for 01_-_Default in PCD3D_SM5, Default, SM5 (DDC key hash: 8EE7C095CF1311CD973F6F702BCD9AD77D21BEBC), compiling. 
+[2023.01.20-00.06.54:888][490]LogShaderCompilers: Display: ================================================
+[2023.01.20-00.06.54:888][490]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.01.20-00.06.54:888][490]LogShaderCompilers: Display: Total job queries 496, among them cache hits 130 (26.21%)
+[2023.01.20-00.06.54:888][490]LogShaderCompilers: Display: Tracking 193 distinct input hashes that result in 102 distinct outputs (52.85%)
+[2023.01.20-00.06.54:888][490]LogShaderCompilers: Display: RAM used: 0.41 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.05%
+[2023.01.20-00.06.54:888][490]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.01.20-00.06.54:888][490]LogShaderCompilers: Display: Shaders Compiled: 333
+[2023.01.20-00.06.54:888][490]LogShaderCompilers: Display: Jobs assigned 204, completed 193 (94.61%)
+[2023.01.20-00.06.54:888][490]LogShaderCompilers: Display: Average time worker was idle: 29.66 s
+[2023.01.20-00.06.54:888][490]LogShaderCompilers: Display: Time job spent in pending queue: average 6.53 s, longest 29.34 s
+[2023.01.20-00.06.54:888][490]LogShaderCompilers: Display: Job execution time: average 5.30 s, max 8.97 s
+[2023.01.20-00.06.54:888][490]LogShaderCompilers: Display: Job life time (pending + execution): average 12.17 s, max 32.06
+[2023.01.20-00.06.54:888][490]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 88.88 s
+[2023.01.20-00.06.54:888][490]LogShaderCompilers: Display: Jobs were issued in 75 batches (only local compilation was used), average 2.72 jobs/batch
+[2023.01.20-00.06.54:888][490]LogShaderCompilers: Display: Average processing rate: 2.17 jobs/sec
+[2023.01.20-00.06.54:888][490]LogShaderCompilers: Display: Effective parallelization: 1.60 (times faster than compiling all shaders on one thread). Compare with number of workers: 2
+[2023.01.20-00.06.54:888][490]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.01.20-00.06.54:888][490]LogShaderCompilers: Display:    TBasePassVSFSelfShadowedCachedPointIndirectLightingPolicy (compiled    3 times, average 1.07 sec, max 1.17 sec, min 0.97 sec)
+[2023.01.20-00.06.54:888][490]LogShaderCompilers: Display:                   TBasePassVSFSelfShadowedTranslucencyPolicy (compiled    3 times, average 1.06 sec, max 1.12 sec, min 0.99 sec)
+[2023.01.20-00.06.54:888][490]LogShaderCompilers: Display:             TBasePassVSFSelfShadowedVolumetricLightmapPolicy (compiled    3 times, average 1.03 sec, max 1.16 sec, min 0.87 sec)
+[2023.01.20-00.06.54:888][490]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   17 times, average 1.01 sec, max 1.33 sec, min 0.73 sec)
+[2023.01.20-00.06.54:888][490]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled    6 times, average 1.00 sec, max 1.30 sec, min 0.80 sec)
+[2023.01.20-00.06.54:888][490]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.01.20-00.06.54:888][490]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 12.07% of total time (compiled   17 times, average 1.01 sec, max 1.33 sec, min 0.73 sec)
+[2023.01.20-00.06.54:888][490]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 6.92% of total time (compiled   13 times, average 0.76 sec, max 0.98 sec, min 0.58 sec)
+[2023.01.20-00.06.54:888][490]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 5.97% of total time (compiled   10 times, average 0.85 sec, max 1.06 sec, min 0.64 sec)
+[2023.01.20-00.06.54:888][490]LogShaderCompilers: Display:                                                 FLumenCardVS - 5.82% of total time (compiled   10 times, average 0.83 sec, max 1.05 sec, min 0.62 sec)
+[2023.01.20-00.06.54:888][490]LogShaderCompilers: Display:                TBasePassVSFCachedPointIndirectLightingPolicy - 4.84% of total time (compiled    7 times, average 0.99 sec, max 1.15 sec, min 0.77 sec)
+[2023.01.20-00.06.54:888][490]LogShaderCompilers: Display: ================================================
+[2023.01.20-00.07.28:387][ 25]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/folha/LeafSystem" FILE="../../../../../../Documentos/UE5/Projects/Teste/Content/folha/LeafSystem.uasset" SILENT=true
+[2023.01.20-00.07.28:476][ 25]LogSavePackage: Moving output files for package: /Game/folha/LeafSystem
+[2023.01.20-00.07.28:476][ 25]LogSavePackage: Moving '../../../../../../Documentos/UE5/Projects/Teste/Saved/LeafSystemB2D230904E17AB65FB6CA3B015BDACB4.tmp' to '../../../../../../Documentos/UE5/Projects/Teste/Content/folha/LeafSystem.uasset'
+[2023.01.20-00.07.28:492][ 25]AssetCheck: New page: Asset Save: LeafSystem
+[2023.01.20-00.07.28:492][ 25]LogContentValidation: Display: Validating NiagaraSystem /Game/folha/LeafSystem.LeafSystem
+[2023.01.20-00.08.47:902][940]80781_LeafSystem_MessageLog: System compile status unknown.
+[2023.01.20-00.08.48:512][969]LogNiagara: Compiling System NiagaraSystem /Game/folha/LeafSystem.LeafSystem took 0.846515 sec (time since issued), 1.381316 sec (combined shader worker time).
+[2023.01.20-00.08.49:921][ 35]80781_LeafSystem_MessageLog: System successfully compiled.
+[2023.01.20-00.08.51:933][114]80781_LeafSystem_MessageLog: System compile status unknown.
+[2023.01.20-00.08.52:128][122]LogNiagara: Compiling System NiagaraSystem /Game/folha/LeafSystem.LeafSystem took 0.928588 sec (time since issued), 1.533189 sec (combined shader worker time).
+[2023.01.20-00.08.53:962][205]80781_LeafSystem_MessageLog: System successfully compiled.
+[2023.01.20-00.09.22:894][526]80781_LeafSystem_MessageLog: System compile status unknown.
+[2023.01.20-00.09.23:669][561]LogNiagara: Compiling System NiagaraSystem /Game/folha/LeafSystem.LeafSystem took 1.068504 sec (time since issued), 1.657061 sec (combined shader worker time).
+[2023.01.20-00.09.24:907][620]80781_LeafSystem_MessageLog: System successfully compiled.
+[2023.01.20-00.09.30:032][841]80781_LeafSystem_MessageLog: System compile status unknown.
+[2023.01.20-00.09.30:742][873]LogNiagara: Compiling System NiagaraSystem /Game/folha/LeafSystem.LeafSystem took 0.982492 sec (time since issued), 1.420483 sec (combined shader worker time).
+[2023.01.20-00.09.32:049][933]80781_LeafSystem_MessageLog: System successfully compiled.
+[2023.01.20-00.09.35:072][ 65]LogNiagara: Compiling System NiagaraSystem /Game/folha/LeafSystem.LeafSystem took 0.112532 sec, no shader worker used.
+[2023.01.20-00.09.35:084][ 66]80781_LeafSystem_MessageLog: System compile status unknown.
+[2023.01.20-00.09.37:100][156]80781_LeafSystem_MessageLog: System successfully compiled.
+[2023.01.20-00.09.37:300][167]Cmd: TRANSACTION UNDO
+[2023.01.20-00.09.37:301][167]LogEditorTransaction: Undo Edit input local value.
+[2023.01.20-00.09.37:424][167]LogNiagara: Compiling System NiagaraSystem /Game/folha/LeafSystem.LeafSystem took 0.092295 sec, no shader worker used.
+[2023.01.20-00.09.38:543][202]Cmd: TRANSACTION UNDO
+[2023.01.20-00.09.38:543][202]LogEditorTransaction: Undo Edit input local value.
+[2023.01.20-00.09.38:662][202]LogNiagara: Compiling System NiagaraSystem /Game/folha/LeafSystem.LeafSystem took 0.088265 sec, no shader worker used.
+[2023.01.20-00.09.39:111][215]80781_LeafSystem_MessageLog: System successfully compiled.
+[2023.01.20-00.09.39:409][229]Cmd: TRANSACTION UNDO
+[2023.01.20-00.09.39:409][229]LogEditorTransaction: Undo Edit input local value.
+[2023.01.20-00.09.39:529][229]LogNiagara: Compiling System NiagaraSystem /Game/folha/LeafSystem.LeafSystem took 0.089640 sec, no shader worker used.
+[2023.01.20-00.09.41:127][292]80781_LeafSystem_MessageLog: System successfully compiled.
+[2023.01.20-00.11.49:686][ 60]80781_LeafSystem_MessageLog: System compile status unknown.
+[2023.01.20-00.11.50:300][ 88]LogShaderCompilers: Display: ================================================
+[2023.01.20-00.11.50:300][ 88]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.01.20-00.11.50:300][ 88]LogShaderCompilers: Display: Total job queries 506, among them cache hits 130 (25.69%)
+[2023.01.20-00.11.50:301][ 88]LogShaderCompilers: Display: Tracking 333 distinct input hashes that result in 145 distinct outputs (43.54%)
+[2023.01.20-00.11.50:301][ 88]LogShaderCompilers: Display: RAM used: 0.70 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.09%
+[2023.01.20-00.11.50:301][ 88]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.01.20-00.11.50:301][ 88]LogShaderCompilers: Display: Shaders Compiled: 333
+[2023.01.20-00.11.50:301][ 88]LogShaderCompilers: Display: Jobs assigned 333, completed 333 (100.00%)
+[2023.01.20-00.11.50:301][ 88]LogShaderCompilers: Display: Average time worker was idle: 26.10 s
+[2023.01.20-00.11.50:301][ 88]LogShaderCompilers: Display: Time job spent in pending queue: average 15.38 s, longest 61.28 s
+[2023.01.20-00.11.50:301][ 88]LogShaderCompilers: Display: Job execution time: average 6.32 s, max 10.68 s
+[2023.01.20-00.11.50:301][ 88]LogShaderCompilers: Display: Job life time (pending + execution): average 21.71 s, max 62.19
+[2023.01.20-00.11.50:301][ 88]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 145.96 s
+[2023.01.20-00.11.50:301][ 88]LogShaderCompilers: Display: Jobs were issued in 98 batches (only local compilation was used), average 3.40 jobs/batch
+[2023.01.20-00.11.50:301][ 88]LogShaderCompilers: Display: Average processing rate: 2.28 jobs/sec
+[2023.01.20-00.11.50:301][ 88]LogShaderCompilers: Display: Effective parallelization: 1.77 (times faster than compiling all shaders on one thread). Compare with number of workers: 2
+[2023.01.20-00.11.50:301][ 88]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.01.20-00.11.50:301][ 88]LogShaderCompilers: Display:    TBasePassVSFSelfShadowedCachedPointIndirectLightingPolicy (compiled    8 times, average 1.20 sec, max 1.39 sec, min 0.97 sec)
+[2023.01.20-00.11.50:301][ 88]LogShaderCompilers: Display:             TBasePassVSFSelfShadowedVolumetricLightmapPolicy (compiled    8 times, average 1.14 sec, max 1.43 sec, min 0.87 sec)
+[2023.01.20-00.11.50:301][ 88]LogShaderCompilers: Display:                   TBasePassVSFSelfShadowedTranslucencyPolicy (compiled    8 times, average 1.10 sec, max 1.25 sec, min 0.96 sec)
+[2023.01.20-00.11.50:301][ 88]LogShaderCompilers: Display:                TBasePassVSFCachedPointIndirectLightingPolicy (compiled   11 times, average 1.07 sec, max 1.33 sec, min 0.77 sec)
+[2023.01.20-00.11.50:301][ 88]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled   11 times, average 1.07 sec, max 1.38 sec, min 0.80 sec)
+[2023.01.20-00.11.50:301][ 88]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.01.20-00.11.50:301][ 88]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.89% of total time (compiled   22 times, average 1.04 sec, max 1.33 sec, min 0.73 sec)
+[2023.01.20-00.11.50:301][ 88]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 5.48% of total time (compiled   18 times, average 0.78 sec, max 1.03 sec, min 0.58 sec)
+[2023.01.20-00.11.50:301][ 88]LogShaderCompilers: Display:                                                 FLumenCardVS - 4.97% of total time (compiled   15 times, average 0.85 sec, max 1.26 sec, min 0.62 sec)
+[2023.01.20-00.11.50:301][ 88]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 4.81% of total time (compiled   15 times, average 0.83 sec, max 1.06 sec, min 0.64 sec)
+[2023.01.20-00.11.50:301][ 88]LogShaderCompilers: Display:                TBasePassVSFCachedPointIndirectLightingPolicy - 4.55% of total time (compiled   11 times, average 1.07 sec, max 1.33 sec, min 0.77 sec)
+[2023.01.20-00.11.50:301][ 88]LogShaderCompilers: Display: ================================================
+[2023.01.20-00.11.50:340][ 89]LogNiagara: Compiling System NiagaraSystem /Game/folha/LeafSystem.LeafSystem took 0.935285 sec (time since issued), 1.474630 sec (combined shader worker time).
+[2023.01.20-00.11.50:842][112]Cmd: TRANSACTION UNDO
+[2023.01.20-00.11.50:842][112]LogEditorTransaction: Undo Insert new module
+[2023.01.20-00.11.50:997][112]LogNiagara: Compiling System NiagaraSystem /Game/folha/LeafSystem.LeafSystem took 0.086747 sec, no shader worker used.
+[2023.01.20-00.11.51:753][130]80781_LeafSystem_MessageLog: System successfully compiled.
+[2023.01.20-00.12.09:428][952]80781_LeafSystem_MessageLog: System compile status unknown.
+[2023.01.20-00.12.10:068][983]LogNiagara: Compiling System NiagaraSystem /Game/folha/LeafSystem.LeafSystem took 0.801640 sec (time since issued), 1.371378 sec (combined shader worker time).
+[2023.01.20-00.12.11:434][ 43]80781_LeafSystem_MessageLog: System successfully compiled.
+[2023.01.20-00.12.18:434][358]LogNiagara: Compiling System NiagaraSystem /Game/folha/LeafSystem.LeafSystem took 0.069646 sec, no shader worker used.
+[2023.01.20-00.12.18:444][359]80781_LeafSystem_MessageLog: System compile status unknown.
+[2023.01.20-00.12.20:447][454]80781_LeafSystem_MessageLog: System successfully compiled.
+[2023.01.20-00.12.40:804][381]80781_LeafSystem_MessageLog: System compile status unknown.
+[2023.01.20-00.12.41:532][414]LogNiagara: Compiling System NiagaraSystem /Game/folha/LeafSystem.LeafSystem took 1.004191 sec (time since issued), 1.561651 sec (combined shader worker time).
+[2023.01.20-00.12.42:819][476]80781_LeafSystem_MessageLog: System successfully compiled.
+[2023.01.20-00.12.53:947][983]LogNiagara: Compiling System NiagaraSystem /Game/folha/LeafSystem.LeafSystem took 0.112338 sec, no shader worker used.
+[2023.01.20-00.12.53:964][984]80781_LeafSystem_MessageLog: System compile status unknown.
+[2023.01.20-00.12.55:979][ 79]80781_LeafSystem_MessageLog: System successfully compiled.
+[2023.01.20-00.14.05:107][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/folha/LeafSystem" FILE="../../../../../../Documentos/UE5/Projects/Teste/Content/folha/LeafSystem.uasset" SILENT=true
+[2023.01.20-00.14.05:169][166]LogSavePackage: Moving output files for package: /Game/folha/LeafSystem
+[2023.01.20-00.14.05:170][166]LogSavePackage: Moving '../../../../../../Documentos/UE5/Projects/Teste/Saved/LeafSystemE326B3DE4054957CBF3265BBC14E0434.tmp' to '../../../../../../Documentos/UE5/Projects/Teste/Content/folha/LeafSystem.uasset'
+[2023.01.20-00.14.05:191][166]AssetCheck: New page: Asset Save: LeafSystem
+[2023.01.20-00.14.05:191][166]LogContentValidation: Display: Validating NiagaraSystem /Game/folha/LeafSystem.LeafSystem
+[2023.01.20-00.14.24:150][ 46]LogSlate: Window 'LeafSystem' being destroyed
+[2023.01.20-00.14.24:172][ 46]LogSlate: Window 'LeafSystem' being destroyed
+[2023.01.20-00.14.24:201][ 46]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-00.14.24:230][ 46]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-00.14.24:243][ 46]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-00.14.24:243][ 46]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-00.14.24:354][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.01.20-00.14.58:319][969]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/herb.herb
+[2023.01.20-00.14.58:319][969]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-00.16.55:024][623]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.01.20-00.16.56:351][623]LogSlate: Window 'Delete Assets' being destroyed
+[2023.01.20-00.16.56:414][623]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/folha/LeafSystem.LeafSystem
+	Asset Type: NiagaraSystem
+[2023.01.20-00.16.56:830][623]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.01.20-00.16.56:864][623]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.01.20-00.16.56:900][623]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.01.20-00.17.09:504][328]LogContentBrowser: Deferred new asset file creation: NewParticleSystem
+[2023.01.20-00.17.09:538][328]LogContentBrowser: Creating deferred item: NewParticleSystem
+[2023.01.20-00.17.09:546][329]LogContentBrowser: Renaming the item being created (Deferred Item: NewParticleSystem).
+[2023.01.20-00.17.15:758][677]LogContentBrowser: Attempting asset rename: NewParticleSystem -> leafParticles
+[2023.01.20-00.17.15:759][677]LogContentBrowser: End creating deferred item NewParticleSystem
+[2023.01.20-00.17.17:562][778]LogAssetEditorSubsystem: Opening Asset editor for ParticleSystem /Game/folha/leafParticles.leafParticles
+[2023.01.20-00.17.17:817][778]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-00.17.17:851][778]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-00.17.17:870][778]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/AnimTreeEd_PreviewFloor) ...
+[2023.01.20-00.17.18:504][778]LogViewport: Scene viewport resized to 572x420, mode Windowed.
+[2023.01.20-00.17.18:529][778]LogViewport: Scene viewport resized to 1335x509, mode Windowed.
+[2023.01.20-00.17.18:592][778]LogViewport: Scene viewport resized to 1335x256, mode Windowed.
+[2023.01.20-00.17.21:290][916]LogMeshUtilities: Finished distance field build in 3.4s - 126x126x49 sparse distance field, 1.1Mb total, 0.0Mb always loaded, 83% occupied, 802 triangles, AnimTreeEd_PreviewFloor
+[2023.01.20-00.17.55:167][ 76]LogWindowsTextInputMethodSystem: Activated input method: Português (Brasil) - (Keyboard).
+[2023.01.20-00.17.55:167][ 76]LogWindowsTextInputMethodSystem: Activated input method: Português (Brasil) - (Keyboard).
+[2023.01.20-00.17.58:325][228]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EngineMeshes/ParticleCube) ...
+[2023.01.20-00.18.24:841][809]LogMaterial: Display: Material /Game/folha/01_-_Default.01_-_Default needed to have new flag set bUsedWithMeshParticles !
+[2023.01.20-00.18.24:850][809]LogMaterial: Display: Missing cached shadermap for 01_-_Default in PCD3D_SM5, Default, SM5 (DDC key hash: AD82BD2C272A4D2DB51B3C822435D07FF74A371F), compiling. 
+[2023.01.20-00.18.25:027][809]LogShaderCompilers: Display: ================================================
+[2023.01.20-00.18.25:027][809]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.01.20-00.18.25:027][809]LogShaderCompilers: Display: Total job queries 678, among them cache hits 270 (39.82%)
+[2023.01.20-00.18.25:027][809]LogShaderCompilers: Display: Tracking 337 distinct input hashes that result in 148 distinct outputs (43.92%)
+[2023.01.20-00.18.25:027][809]LogShaderCompilers: Display: RAM used: 0.75 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.09%
+[2023.01.20-00.18.25:027][809]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.01.20-00.18.25:027][809]LogShaderCompilers: Display: Shaders Compiled: 501
+[2023.01.20-00.18.25:028][809]LogShaderCompilers: Display: Jobs assigned 337, completed 337 (100.00%)
+[2023.01.20-00.18.25:028][809]LogShaderCompilers: Display: Average time worker was idle: 26.08 s
+[2023.01.20-00.18.25:028][809]LogShaderCompilers: Display: Time job spent in pending queue: average 15.20 s, longest 61.28 s
+[2023.01.20-00.18.25:028][809]LogShaderCompilers: Display: Job execution time: average 6.26 s, max 10.68 s
+[2023.01.20-00.18.25:028][809]LogShaderCompilers: Display: Job life time (pending + execution): average 21.46 s, max 62.19
+[2023.01.20-00.18.25:028][809]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 147.23 s
+[2023.01.20-00.18.25:028][809]LogShaderCompilers: Display: Jobs were issued in 100 batches (only local compilation was used), average 3.37 jobs/batch
+[2023.01.20-00.18.25:028][809]LogShaderCompilers: Display: Average processing rate: 2.29 jobs/sec
+[2023.01.20-00.18.25:028][809]LogShaderCompilers: Display: Effective parallelization: 1.76 (times faster than compiling all shaders on one thread). Compare with number of workers: 2
+[2023.01.20-00.18.25:028][809]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.01.20-00.18.25:028][809]LogShaderCompilers: Display:    TBasePassVSFSelfShadowedCachedPointIndirectLightingPolicy (compiled    8 times, average 1.20 sec, max 1.39 sec, min 0.97 sec)
+[2023.01.20-00.18.25:028][809]LogShaderCompilers: Display:             TBasePassVSFSelfShadowedVolumetricLightmapPolicy (compiled    8 times, average 1.14 sec, max 1.43 sec, min 0.87 sec)
+[2023.01.20-00.18.25:028][809]LogShaderCompilers: Display:                   TBasePassVSFSelfShadowedTranslucencyPolicy (compiled    8 times, average 1.10 sec, max 1.25 sec, min 0.96 sec)
+[2023.01.20-00.18.25:028][809]LogShaderCompilers: Display:                TBasePassVSFCachedPointIndirectLightingPolicy (compiled   11 times, average 1.07 sec, max 1.33 sec, min 0.77 sec)
+[2023.01.20-00.18.25:028][809]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled   11 times, average 1.07 sec, max 1.38 sec, min 0.80 sec)
+[2023.01.20-00.18.25:028][809]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.01.20-00.18.25:028][809]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.87% of total time (compiled   22 times, average 1.04 sec, max 1.33 sec, min 0.73 sec)
+[2023.01.20-00.18.25:028][809]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 5.46% of total time (compiled   18 times, average 0.78 sec, max 1.03 sec, min 0.58 sec)
+[2023.01.20-00.18.25:028][809]LogShaderCompilers: Display:                                                 FLumenCardVS - 4.96% of total time (compiled   15 times, average 0.85 sec, max 1.26 sec, min 0.62 sec)
+[2023.01.20-00.18.25:028][809]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 4.79% of total time (compiled   15 times, average 0.83 sec, max 1.06 sec, min 0.64 sec)
+[2023.01.20-00.18.25:028][809]LogShaderCompilers: Display:                TBasePassVSFCachedPointIndirectLightingPolicy - 4.54% of total time (compiled   11 times, average 1.07 sec, max 1.33 sec, min 0.77 sec)
+[2023.01.20-00.18.25:028][809]LogShaderCompilers: Display: ================================================
+[2023.01.20-00.25.32:526][671]LogEditorTransaction: Undo Set Vector Property
+[2023.01.20-00.32.39:587][587]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.01.20-00.34.14:348][ 37]LogEditorTransaction: Undo Set Vector Property
+[2023.01.20-00.36.13:775][504]LogDerivedDataCache: C:/Users/dany_/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.612 and deleted 0 file(s) with total size 0 MiB.
+[2023.01.20-00.36.57:582][649]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/folha/leafParticles" FILE="../../../../../../Documentos/UE5/Projects/Teste/Content/folha/leafParticles.uasset" SILENT=true
+[2023.01.20-00.36.57:585][649]LogSavePackage: Moving output files for package: /Game/folha/leafParticles
+[2023.01.20-00.36.57:585][649]LogSavePackage: Moving '../../../../../../Documentos/UE5/Projects/Teste/Saved/leafParticles3560DDF347D3966680DB5CB67E680550.tmp' to '../../../../../../Documentos/UE5/Projects/Teste/Content/folha/leafParticles.uasset'
+[2023.01.20-00.36.57:609][649]AssetCheck: New page: Asset Save: leafParticles
+[2023.01.20-00.36.57:609][649]LogContentValidation: Display: Validating ParticleSystem /Game/folha/leafParticles.leafParticles
+[2023.01.20-00.37.13:764][574]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.01.20-00.37.13:764][574]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.01.20-00.37.14:282][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Particles/P_Explosion" FILE="../../../../../../Documentos/UE5/Projects/Teste/Content/StarterContent/Particles/P_Explosion.uasset" SILENT=true
+[2023.01.20-00.37.14:358][601]LogSavePackage: Moving output files for package: /Game/StarterContent/Particles/P_Explosion
+[2023.01.20-00.37.14:360][601]LogSavePackage: Moving '../../../../../../Documentos/UE5/Projects/Teste/Saved/P_Explosion88541A6640EFA79239F9FEB6DD0114FF.tmp' to '../../../../../../Documentos/UE5/Projects/Teste/Content/StarterContent/Particles/P_Explosion.uasset'
+[2023.01.20-00.37.14:377][601]AssetCheck: New page: Asset Save: P_Explosion
+[2023.01.20-00.37.14:377][601]LogContentValidation: Display: Validating ParticleSystem /Game/StarterContent/Particles/P_Explosion.P_Explosion
+[2023.01.20-00.37.16:046][692]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.01.20-00.37.16:046][692]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.01.20-00.37.16:938][745]LogContentBrowser: Deferred new asset file creation: P_Explosion1
+[2023.01.20-00.37.16:956][745]LogContentBrowser: Creating deferred item: P_Explosion1
+[2023.01.20-00.37.16:965][746]LogContentBrowser: Renaming the item being created (Deferred Item: P_Explosion1).
+[2023.01.20-00.37.26:206][267]LogContentBrowser: Attempting asset rename: P_Explosion1 -> P_Leaf
+[2023.01.20-00.37.26:214][267]LogContentBrowser: End creating deferred item P_Explosion1
+[2023.01.20-00.37.26:237][268]LogTexture: Display: Building textures: /Game/StarterContent/Particles/P_Leaf.P_Leaf:ThumbnailTexture (TFO_DXT1, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2023.01.20-00.37.28:533][402]LogAssetEditorSubsystem: Opening Asset editor for ParticleSystem /Game/StarterContent/Particles/P_Leaf.P_Leaf
+[2023.01.20-00.37.28:535][402]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-00.37.28:557][402]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-00.37.28:637][402]LogViewport: Scene viewport resized to 572x420, mode Windowed.
+[2023.01.20-00.37.28:666][402]LogViewport: Scene viewport resized to 1335x509, mode Windowed.
+[2023.01.20-00.37.28:695][402]LogViewport: Scene viewport resized to 1335x256, mode Windowed.
+[2023.01.20-00.38.18:019][951]LogMaterial: Display: Material /Game/folha/01_-_Default.01_-_Default needed to have new flag set bUsedWithParticleSprites !
+[2023.01.20-00.38.18:025][951]LogMaterial: Display: Missing cached shadermap for 01_-_Default in PCD3D_SM5, Default, SM5 (DDC key hash: E304CEA1E90F26B2952F852A68EFD4F0A39A0271), compiling. 
+[2023.01.20-00.38.18:264][951]LogShaderCompilers: Display: ================================================
+[2023.01.20-00.38.18:264][951]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.01.20-00.38.18:264][951]LogShaderCompilers: Display: Total job queries 910, among them cache hits 446 (49.01%)
+[2023.01.20-00.38.18:264][951]LogShaderCompilers: Display: Tracking 365 distinct input hashes that result in 170 distinct outputs (46.58%)
+[2023.01.20-00.38.18:264][951]LogShaderCompilers: Display: RAM used: 0.79 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.10%
+[2023.01.20-00.38.18:264][951]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.01.20-00.38.18:264][951]LogShaderCompilers: Display: Shaders Compiled: 725
+[2023.01.20-00.38.18:264][951]LogShaderCompilers: Display: Jobs assigned 365, completed 365 (100.00%)
+[2023.01.20-00.38.18:264][951]LogShaderCompilers: Display: Average time worker was idle: 31.79 s
+[2023.01.20-00.38.18:265][951]LogShaderCompilers: Display: Time job spent in pending queue: average 14.24 s, longest 61.28 s
+[2023.01.20-00.38.18:265][951]LogShaderCompilers: Display: Job execution time: average 6.08 s, max 10.68 s
+[2023.01.20-00.38.18:265][951]LogShaderCompilers: Display: Job life time (pending + execution): average 20.32 s, max 62.19
+[2023.01.20-00.38.18:265][951]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 156.97 s
+[2023.01.20-00.38.18:265][951]LogShaderCompilers: Display: Jobs were issued in 110 batches (only local compilation was used), average 3.32 jobs/batch
+[2023.01.20-00.38.18:265][951]LogShaderCompilers: Display: Average processing rate: 2.33 jobs/sec
+[2023.01.20-00.38.18:265][951]LogShaderCompilers: Display: Effective parallelization: 1.76 (times faster than compiling all shaders on one thread). Compare with number of workers: 2
+[2023.01.20-00.38.18:265][951]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.01.20-00.38.18:265][951]LogShaderCompilers: Display:    TBasePassVSFSelfShadowedCachedPointIndirectLightingPolicy (compiled    9 times, average 1.15 sec, max 1.39 sec, min 0.74 sec)
+[2023.01.20-00.38.18:265][951]LogShaderCompilers: Display:             TBasePassVSFSelfShadowedVolumetricLightmapPolicy (compiled    9 times, average 1.07 sec, max 1.43 sec, min 0.54 sec)
+[2023.01.20-00.38.18:265][951]LogShaderCompilers: Display:                   TBasePassVSFSelfShadowedTranslucencyPolicy (compiled    9 times, average 1.07 sec, max 1.25 sec, min 0.82 sec)
+[2023.01.20-00.38.18:265][951]LogShaderCompilers: Display:                TBasePassVSFCachedPointIndirectLightingPolicy (compiled   12 times, average 1.03 sec, max 1.33 sec, min 0.57 sec)
+[2023.01.20-00.38.18:265][951]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   23 times, average 1.03 sec, max 1.33 sec, min 0.65 sec)
+[2023.01.20-00.38.18:265][951]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.01.20-00.38.18:265][951]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.54% of total time (compiled   23 times, average 1.03 sec, max 1.33 sec, min 0.65 sec)
+[2023.01.20-00.38.18:265][951]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 5.42% of total time (compiled   19 times, average 0.79 sec, max 1.03 sec, min 0.58 sec)
+[2023.01.20-00.38.18:265][951]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 4.77% of total time (compiled   16 times, average 0.82 sec, max 1.06 sec, min 0.64 sec)
+[2023.01.20-00.38.18:265][951]LogShaderCompilers: Display:                                                 FLumenCardVS - 4.77% of total time (compiled   16 times, average 0.82 sec, max 1.26 sec, min 0.36 sec)
+[2023.01.20-00.38.18:265][951]LogShaderCompilers: Display:                TBasePassVSFCachedPointIndirectLightingPolicy - 4.46% of total time (compiled   12 times, average 1.03 sec, max 1.33 sec, min 0.57 sec)
+[2023.01.20-00.38.18:265][951]LogShaderCompilers: Display: ================================================
+[2023.01.20-00.38.33:609][744]LogEditorTransaction: Undo Edit Material
+[2023.01.20-00.40.02:777][384]LogEditorTransaction: Undo Edit Z
+[2023.01.20-00.40.03:312][393]LogEditorTransaction: Undo Edit Y
+[2023.01.20-00.40.03:793][418]LogEditorTransaction: Undo Edit Z
+[2023.01.20-00.40.04:090][433]LogEditorTransaction: Undo Edit Y
+[2023.01.20-00.40.05:383][501]LogEditorTransaction: Undo Edit Mesh
+[2023.01.20-00.40.06:564][563]LogEditorTransaction: Undo Create New Module
+[2023.01.20-00.40.08:146][646]LogEditorTransaction: Redo Create New Module
+[2023.01.20-00.40.17:833][137]LogEditorTransaction: Undo Edit LODSize Scale
+[2023.01.20-00.40.56:650][191]LogEditorTransaction: Undo Edit Constant
+[2023.01.20-00.41.31:605][ 24]LogEditorTransaction: Undo Delete Selected Module
+[2023.01.20-00.41.32:172][ 34]LogEditorTransaction: Undo Edit Constant
+[2023.01.20-00.41.32:739][ 64]LogEditorTransaction: Undo Create New Module
+[2023.01.20-00.41.33:301][ 94]LogEditorTransaction: Undo Edit Material
+[2023.01.20-00.41.33:899][126]LogEditorTransaction: Undo Delete Emitter
+[2023.01.20-00.41.54:165][194]LogCascade: Quitting Cascade. FXSystem=0x0000083E9C0646B0
+[2023.01.20-00.41.54:208][194]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-00.41.54:208][194]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-00.42.00:365][538]LogAssetEditorSubsystem: Opening Asset editor for ParticleSystem /Game/StarterContent/Particles/P_Leaf.P_Leaf
+[2023.01.20-00.42.00:366][538]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-00.42.00:388][538]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-00.42.00:490][538]LogViewport: Scene viewport resized to 572x420, mode Windowed.
+[2023.01.20-00.42.00:517][538]LogViewport: Scene viewport resized to 1335x509, mode Windowed.
+[2023.01.20-00.42.00:545][538]LogViewport: Scene viewport resized to 1335x256, mode Windowed.
+[2023.01.20-00.42.34:333][332]LogEditorTransaction: Undo Create New Module
+[2023.01.20-00.44.24:955][218]LogCascade: Non-seeded module ParticleModuleLocationPrimitiveSphere
+[2023.01.20-00.44.25:483][243]LogCascade: Non-seeded module ParticleModuleLocationPrimitiveSphere
+[2023.01.20-00.44.40:375][ 30]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Particles/P_Leaf" FILE="../../../../../../Documentos/UE5/Projects/Teste/Content/StarterContent/Particles/P_Leaf.uasset" SILENT=true
+[2023.01.20-00.44.40:383][ 30]LogSavePackage: Moving output files for package: /Game/StarterContent/Particles/P_Leaf
+[2023.01.20-00.44.40:383][ 30]LogSavePackage: Moving '../../../../../../Documentos/UE5/Projects/Teste/Saved/P_LeafB2EAC40F485A6D3CBD48C0B3A89E078A.tmp' to '../../../../../../Documentos/UE5/Projects/Teste/Content/StarterContent/Particles/P_Leaf.uasset'
+[2023.01.20-00.44.40:404][ 30]AssetCheck: New page: Asset Save: P_Leaf
+[2023.01.20-00.44.40:404][ 30]LogContentValidation: Display: Validating ParticleSystem /Game/StarterContent/Particles/P_Leaf.P_Leaf
+[2023.01.20-00.45.57:865][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Particles/P_Leaf" FILE="../../../../../../Documentos/UE5/Projects/Teste/Content/StarterContent/Particles/P_Leaf.uasset" SILENT=true
+[2023.01.20-00.45.57:890][112]LogSavePackage: Moving output files for package: /Game/StarterContent/Particles/P_Leaf
+[2023.01.20-00.45.57:891][112]LogSavePackage: Moving '../../../../../../Documentos/UE5/Projects/Teste/Saved/P_Leaf6394DBFB4A5ABF06F7516AA83C49E710.tmp' to '../../../../../../Documentos/UE5/Projects/Teste/Content/StarterContent/Particles/P_Leaf.uasset'
+[2023.01.20-00.45.57:908][112]AssetCheck: New page: Asset Save: P_Leaf
+[2023.01.20-00.45.57:908][112]LogContentValidation: Display: Validating ParticleSystem /Game/StarterContent/Particles/P_Leaf.P_Leaf
+[2023.01.20-00.45.59:765][213]LogCascade: Quitting Cascade. FXSystem=0x0000083EA2BFB7F0
+[2023.01.20-00.45.59:810][213]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-00.45.59:810][213]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-00.46.03:824][439]LogAssetEditorSubsystem: Opening Asset editor for ParticleSystem /Game/StarterContent/Particles/P_Leaf.P_Leaf
+[2023.01.20-00.46.03:825][439]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-00.46.03:847][439]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-00.46.03:924][439]LogViewport: Scene viewport resized to 572x420, mode Windowed.
+[2023.01.20-00.46.03:952][439]LogViewport: Scene viewport resized to 1335x509, mode Windowed.
+[2023.01.20-00.46.03:978][439]LogViewport: Scene viewport resized to 1335x256, mode Windowed.
+[2023.01.20-00.46.13:194][926]LogMaterial: Display: Material /Engine/EngineMaterials/EmissiveTexturedMaterial.EmissiveTexturedMaterial needed to have new flag set bUsedWithParticleSprites !
+[2023.01.20-00.46.13:213][926]LogMaterial: Display: Missing cached shadermap for EmissiveTexturedMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: 896E96D14737BF43029883DF6909CDCB5DD4A088), compiling. 
+[2023.01.20-00.46.18:109][164]LogShaderCompilers: Display: ================================================
+[2023.01.20-00.46.18:109][164]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.01.20-00.46.18:109][164]LogShaderCompilers: Display: Total job queries 942, among them cache hits 454 (48.20%)
+[2023.01.20-00.46.18:109][164]LogShaderCompilers: Display: Tracking 431 distinct input hashes that result in 220 distinct outputs (51.04%)
+[2023.01.20-00.46.18:109][164]LogShaderCompilers: Display: RAM used: 0.93 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.11%
+[2023.01.20-00.46.18:109][164]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.01.20-00.46.18:109][164]LogShaderCompilers: Display: Shaders Compiled: 749
+[2023.01.20-00.46.18:109][164]LogShaderCompilers: Display: Jobs assigned 442, completed 431 (97.51%)
+[2023.01.20-00.46.18:109][164]LogShaderCompilers: Display: Average time worker was idle: 55.05 s
+[2023.01.20-00.46.18:109][164]LogShaderCompilers: Display: Time job spent in pending queue: average 12.58 s, longest 61.28 s
+[2023.01.20-00.46.18:109][164]LogShaderCompilers: Display: Job execution time: average 5.95 s, max 10.68 s
+[2023.01.20-00.46.18:109][164]LogShaderCompilers: Display: Job life time (pending + execution): average 18.83 s, max 62.19
+[2023.01.20-00.46.18:109][164]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 179.34 s
+[2023.01.20-00.46.18:109][164]LogShaderCompilers: Display: Jobs were issued in 124 batches (only local compilation was used), average 3.56 jobs/batch
+[2023.01.20-00.46.18:109][164]LogShaderCompilers: Display: Average processing rate: 2.40 jobs/sec
+[2023.01.20-00.46.18:109][164]LogShaderCompilers: Display: Effective parallelization: 1.75 (times faster than compiling all shaders on one thread). Compare with number of workers: 2
+[2023.01.20-00.46.18:109][164]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.01.20-00.46.18:109][164]LogShaderCompilers: Display:    TBasePassVSFSelfShadowedCachedPointIndirectLightingPolicy (compiled   11 times, average 1.07 sec, max 1.39 sec, min 0.70 sec)
+[2023.01.20-00.46.18:109][164]LogShaderCompilers: Display:                   TBasePassVSFSelfShadowedTranslucencyPolicy (compiled   11 times, average 1.00 sec, max 1.25 sec, min 0.67 sec)
+[2023.01.20-00.46.18:109][164]LogShaderCompilers: Display:             TBasePassVSFSelfShadowedVolumetricLightmapPolicy (compiled   11 times, average 1.00 sec, max 1.43 sec, min 0.54 sec)
+[2023.01.20-00.46.18:109][164]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   26 times, average 0.97 sec, max 1.33 sec, min 0.33 sec)
+[2023.01.20-00.46.18:109][164]LogShaderCompilers: Display:                TBasePassVSFCachedPointIndirectLightingPolicy (compiled   14 times, average 0.97 sec, max 1.33 sec, min 0.57 sec)
+[2023.01.20-00.46.18:109][164]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.01.20-00.46.18:109][164]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.06% of total time (compiled   26 times, average 0.97 sec, max 1.33 sec, min 0.33 sec)
+[2023.01.20-00.46.18:109][164]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 5.52% of total time (compiled   23 times, average 0.75 sec, max 1.03 sec, min 0.43 sec)
+[2023.01.20-00.46.18:109][164]LogShaderCompilers: Display:                                                 FLumenCardVS - 4.72% of total time (compiled   20 times, average 0.74 sec, max 1.26 sec, min 0.36 sec)
+[2023.01.20-00.46.18:109][164]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 4.64% of total time (compiled   18 times, average 0.81 sec, max 1.06 sec, min 0.64 sec)
+[2023.01.20-00.46.18:109][164]LogShaderCompilers: Display:                TBasePassVSFCachedPointIndirectLightingPolicy - 4.32% of total time (compiled   14 times, average 0.97 sec, max 1.33 sec, min 0.57 sec)
+[2023.01.20-00.46.18:109][164]LogShaderCompilers: Display: ================================================
+[2023.01.20-00.46.39:708][197]LogEditorTransaction: Undo Edit LODSize Scale
+[2023.01.20-00.46.44:269][413]LogEditorTransaction: Undo Edit Mesh
+[2023.01.20-00.46.45:367][453]LogEditorTransaction: Undo Create New Module
+[2023.01.20-00.48.53:146][311]LogCascade: Quitting Cascade. FXSystem=0x0000083E98F36AB0
+[2023.01.20-00.48.53:155][311]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-00.48.53:155][311]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-00.48.59:014][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/folha/leafParticles" FILE="../../../../../../Documentos/UE5/Projects/Teste/Content/folha/leafParticles.uasset" SILENT=true
+[2023.01.20-00.48.59:018][638]LogSavePackage: Moving output files for package: /Game/folha/leafParticles
+[2023.01.20-00.48.59:018][638]LogSavePackage: Moving '../../../../../../Documentos/UE5/Projects/Teste/Saved/leafParticlesC4888EA94662560E4B4C3689C4545C7A.tmp' to '../../../../../../Documentos/UE5/Projects/Teste/Content/folha/leafParticles.uasset'
+[2023.01.20-00.48.59:037][638]AssetCheck: New page: Asset Save: leafParticles
+[2023.01.20-00.48.59:037][638]LogContentValidation: Display: Validating ParticleSystem /Game/folha/leafParticles.leafParticles
+[2023.01.20-00.49.13:496][476]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.20-00.49.13:505][476]LogWorldPartition: Display: GenerateStreaming started...
+[2023.01.20-00.49.13:505][476]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.01.20-00.49.13:505][476]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.20-00.49.13:505][476]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.01.20-00.49.13:505][476]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.01.20-00.49.13:505][476]LogWorldPartition: Display: GetPartitionedActors took 134 us
+[2023.01.20-00.49.13:506][476]LogWorldPartition: Display: GenerateStreaming took 476 us
+[2023.01.20-00.49.13:506][476]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.01.20-00.49.13:507][476]LogPlayLevel: [PlayLevel] Compiling herb before play...
+[2023.01.20-00.49.13:661][476]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2023.01.20-00.49.13:667][476]LogPlayLevel: PlayLevel: Blueprint regeneration took 161 ms (1 blueprints)
+[2023.01.20-00.49.13:668][476]PIE: New page: PIE session: ThirdPersonMap (Jan 19, 2023, 6:49:13 PM)
+[2023.01.20-00.49.13:668][476]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.01.20-00.49.13:677][476]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.01.20-00.49.13:682][476]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013409s)
+[2023.01.20-00.49.13:682][476]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.013497s)
+[2023.01.20-00.49.13:682][476]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-00.49.13:682][476]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.01.20-00.49.13:683][476]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.20-00.49.13:683][476]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.01.20-00.49.13:685][476]LogWorldPartition: Display: WorldPartition initialize took 2 ms
+[2023.01.20-00.49.13:685][476]LogPlayLevel: PIE: World Init took: (0.003293s)
+[2023.01.20-00.49.13:737][476]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.01.20-00.49.13:740][476]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2023.01.20-00.49.13:740][476]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.20-00.49.13:740][476]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.20-00.49.13:740][476]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.20-00.49.13:740][476]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.20-00.49.13:740][476]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.20-00.49.13:740][476]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.20-00.49.13:740][476]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.20-00.49.13:740][476]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.20-00.49.13:741][476]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.20-00.49.13:741][476]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.20-00.49.13:741][476]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.20-00.49.13:743][476]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.20-00.49.13:782][476]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Razer Kraken Ultimate)
+[2023.01.20-00.49.13:783][476]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.20-00.49.13:783][476]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.20-00.49.13:783][476]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.20-00.49.13:784][476]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2023.01.20-00.49.13:784][476]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2023.01.20-00.49.13:785][476]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2023.01.20-00.49.13:785][476]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2023.01.20-00.49.13:785][476]LogInit: FAudioDevice initialized.
+[2023.01.20-00.49.13:785][476]LogAudio: Display: Audio Device (ID: 24) registered with world 'ThirdPersonMap'.
+[2023.01.20-00.49.13:797][476]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.01.20-00.49.13:801][476]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.01.19-21.49.13
+[2023.01.20-00.49.13:801][476]LogWorld: Bringing up level for play took: 0.002531
+[2023.01.20-00.49.13:803][476]LogOnline: OSS: Created online subsystem instance for: :Context_60
+[2023.01.20-00.49.13:806][476]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1710.000 Y=870.000 Z=92.400
+[2023.01.20-00.49.13:806][476]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.20-00.49.13:807][476]PIE: Server logged in
+[2023.01.20-00.49.13:807][476]PIE: Play in editor total start time 0.304 seconds.
+[2023.01.20-00.49.17:235][673]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Mais que suficiente, vida cheia!
+[2023.01.20-00.49.24:520][190]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-00.49.24:520][190]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.01.20-00.49.24:521][190]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-00.49.24:521][190]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-00.49.24:536][190]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.20-00.49.24:543][190]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-00.49.24:584][190]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-00.49.24:584][190]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2023.01.20-00.49.24:586][190]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2023.01.20-00.49.24:593][190]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.01.20-00.49.24:691][191]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2023.01.20-00.49.38:330][124]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.01.20-00.49.39:154][124]LogSlate: Window 'Delete Assets' being destroyed
+[2023.01.20-00.49.39:189][124]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/StarterContent/Particles/P_Leaf.P_Leaf
+	Asset Type: ParticleSystem
+[2023.01.20-00.49.39:674][124]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2023.01.20-00.49.39:723][124]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2023.01.20-00.49.39:765][124]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.01.20-00.55.05:379][371]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.20-00.55.05:388][371]LogWorldPartition: Display: GenerateStreaming started...
+[2023.01.20-00.55.05:388][371]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.01.20-00.55.05:388][371]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.20-00.55.05:388][371]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.01.20-00.55.05:388][371]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.01.20-00.55.05:388][371]LogWorldPartition: Display: GetPartitionedActors took 57 us
+[2023.01.20-00.55.05:388][371]LogWorldPartition: Display: GenerateStreaming took 358 us
+[2023.01.20-00.55.05:388][371]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.01.20-00.55.05:389][371]LogPlayLevel: [PlayLevel] Compiling herb before play...
+[2023.01.20-00.55.05:472][371]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2023.01.20-00.55.05:476][371]LogPlayLevel: PlayLevel: Blueprint regeneration took 89 ms (1 blueprints)
+[2023.01.20-00.55.05:476][371]PIE: New page: PIE session: ThirdPersonMap (Jan 19, 2023, 6:55:05 PM)
+[2023.01.20-00.55.05:520][371]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.01.20-00.55.05:529][371]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.01.20-00.55.05:533][371]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012606s)
+[2023.01.20-00.55.05:533][371]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.012735s)
+[2023.01.20-00.55.05:533][371]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-00.55.05:534][371]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.01.20-00.55.05:535][371]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.20-00.55.05:535][371]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.01.20-00.55.05:537][371]LogWorldPartition: Display: WorldPartition initialize took 2 ms
+[2023.01.20-00.55.05:537][371]LogPlayLevel: PIE: World Init took: (0.003760s)
+[2023.01.20-00.55.05:579][371]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2023.01.20-00.55.05:580][371]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2023.01.20-00.55.05:580][371]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.20-00.55.05:580][371]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.20-00.55.05:580][371]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.20-00.55.05:580][371]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.20-00.55.05:580][371]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.20-00.55.05:580][371]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.20-00.55.05:580][371]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.20-00.55.05:581][371]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.20-00.55.05:581][371]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.20-00.55.05:581][371]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.20-00.55.05:581][371]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.20-00.55.05:584][371]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.20-00.55.05:624][371]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Razer Kraken Ultimate)
+[2023.01.20-00.55.05:625][371]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.20-00.55.05:625][371]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.20-00.55.05:625][371]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.20-00.55.05:627][371]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2023.01.20-00.55.05:627][371]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2023.01.20-00.55.05:629][371]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2023.01.20-00.55.05:629][371]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2023.01.20-00.55.05:629][371]LogInit: FAudioDevice initialized.
+[2023.01.20-00.55.05:629][371]LogAudio: Display: Audio Device (ID: 25) registered with world 'ThirdPersonMap'.
+[2023.01.20-00.55.05:641][371]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.01.20-00.55.05:643][371]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.01.19-21.55.05
+[2023.01.20-00.55.05:643][371]LogWorld: Bringing up level for play took: 0.002308
+[2023.01.20-00.55.05:645][371]LogOnline: OSS: Created online subsystem instance for: :Context_61
+[2023.01.20-00.55.05:648][371]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1710.000 Y=870.000 Z=92.400
+[2023.01.20-00.55.05:648][371]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.20-00.55.05:649][371]PIE: Server logged in
+[2023.01.20-00.55.05:649][371]PIE: Play in editor total start time 0.263 seconds.
+[2023.01.20-00.55.08:746][553]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Mais que suficiente, vida cheia!
+[2023.01.20-00.55.15:080][964]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-00.55.15:080][964]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.01.20-00.55.15:081][964]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-00.55.15:081][964]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-00.55.15:093][964]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.20-00.55.15:100][964]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-00.55.15:140][964]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-00.55.15:140][964]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2023.01.20-00.55.15:142][964]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2023.01.20-00.55.15:149][964]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2023.01.20-00.55.15:224][965]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2023.01.20-00.55.17:765][114]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.20-00.55.17:773][114]LogWorldPartition: Display: GenerateStreaming started...
+[2023.01.20-00.55.17:773][114]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.01.20-00.55.17:773][114]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.20-00.55.17:773][114]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.01.20-00.55.17:773][114]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.01.20-00.55.17:773][114]LogWorldPartition: Display: GetPartitionedActors took 57 us
+[2023.01.20-00.55.17:773][114]LogWorldPartition: Display: GenerateStreaming took 321 us
+[2023.01.20-00.55.17:774][114]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.20-00.55.17:774][114]PIE: New page: PIE session: ThirdPersonMap (Jan 19, 2023, 6:55:17 PM)
+[2023.01.20-00.55.17:774][114]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.01.20-00.55.17:783][114]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.01.20-00.55.17:787][114]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013473s)
+[2023.01.20-00.55.17:787][114]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.013564s)
+[2023.01.20-00.55.17:787][114]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-00.55.17:787][114]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.01.20-00.55.17:787][114]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.20-00.55.17:787][114]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.01.20-00.55.17:791][114]LogWorldPartition: Display: WorldPartition initialize took 2 ms
+[2023.01.20-00.55.17:791][114]LogPlayLevel: PIE: World Init took: (0.003476s)
+[2023.01.20-00.55.17:833][114]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2023.01.20-00.55.17:834][114]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2023.01.20-00.55.17:834][114]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.20-00.55.17:834][114]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.20-00.55.17:834][114]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.20-00.55.17:834][114]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.20-00.55.17:834][114]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.20-00.55.17:834][114]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.20-00.55.17:834][114]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.20-00.55.17:834][114]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.20-00.55.17:835][114]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.20-00.55.17:835][114]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.20-00.55.17:835][114]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.20-00.55.17:836][114]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.20-00.55.17:876][114]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Razer Kraken Ultimate)
+[2023.01.20-00.55.17:876][114]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.20-00.55.17:876][114]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.20-00.55.17:876][114]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.20-00.55.17:877][114]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2023.01.20-00.55.17:877][114]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2023.01.20-00.55.17:879][114]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2023.01.20-00.55.17:879][114]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2023.01.20-00.55.17:879][114]LogInit: FAudioDevice initialized.
+[2023.01.20-00.55.17:879][114]LogAudio: Display: Audio Device (ID: 26) registered with world 'ThirdPersonMap'.
+[2023.01.20-00.55.17:888][114]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.01.20-00.55.17:890][114]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.01.19-21.55.17
+[2023.01.20-00.55.17:891][114]LogWorld: Bringing up level for play took: 0.002420
+[2023.01.20-00.55.17:893][114]LogOnline: OSS: Created online subsystem instance for: :Context_62
+[2023.01.20-00.55.17:895][114]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1710.000 Y=870.000 Z=92.400
+[2023.01.20-00.55.17:895][114]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.20-00.55.17:896][114]PIE: Server logged in
+[2023.01.20-00.55.17:897][114]PIE: Play in editor total start time 0.125 seconds.
+[2023.01.20-00.55.22:396][379]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Mais que suficiente, vida cheia!
+[2023.01.20-00.56.17:237][353]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 3
+[2023.01.20-00.56.17:842][389]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 6
+[2023.01.20-00.56.18:667][440]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 11
+[2023.01.20-00.56.19:540][500]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 16
+[2023.01.20-00.56.19:541][500]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 21
+[2023.01.20-00.56.19:914][525]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 22
+[2023.01.20-00.56.20:105][538]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 23
+[2023.01.20-00.56.20:294][551]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 24
+[2023.01.20-00.56.20:487][564]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 25
+[2023.01.20-00.56.23:199][744]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 28
+[2023.01.20-00.56.23:647][770]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 31
+[2023.01.20-00.56.24:436][816]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 36
+[2023.01.20-00.56.25:391][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-00.56.25:391][874]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.01.20-00.56.25:391][874]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-00.56.25:391][874]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-00.56.25:403][874]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.20-00.56.25:409][874]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-00.56.25:449][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-00.56.25:449][874]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2023.01.20-00.56.25:450][874]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2023.01.20-00.56.25:457][874]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2023.01.20-00.56.25:495][875]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2023.01.20-00.56.27:575][998]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.20-00.56.27:583][998]LogWorldPartition: Display: GenerateStreaming started...
+[2023.01.20-00.56.27:584][998]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.01.20-00.56.27:584][998]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.20-00.56.27:584][998]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.01.20-00.56.27:584][998]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.01.20-00.56.27:584][998]LogWorldPartition: Display: GetPartitionedActors took 57 us
+[2023.01.20-00.56.27:584][998]LogWorldPartition: Display: GenerateStreaming took 315 us
+[2023.01.20-00.56.27:584][998]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.20-00.56.27:584][998]PIE: New page: PIE session: ThirdPersonMap (Jan 19, 2023, 6:56:27 PM)
+[2023.01.20-00.56.27:609][998]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.01.20-00.56.27:618][998]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.01.20-00.56.27:621][998]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011686s)
+[2023.01.20-00.56.27:621][998]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.011793s)
+[2023.01.20-00.56.27:622][998]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-00.56.27:622][998]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.01.20-00.56.27:622][998]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.20-00.56.27:622][998]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.01.20-00.56.27:624][998]LogWorldPartition: Display: WorldPartition initialize took 2 ms
+[2023.01.20-00.56.27:625][998]LogPlayLevel: PIE: World Init took: (0.003121s)
+[2023.01.20-00.56.27:662][998]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.01.20-00.56.27:664][998]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2023.01.20-00.56.27:664][998]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.20-00.56.27:664][998]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.20-00.56.27:664][998]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.20-00.56.27:664][998]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.20-00.56.27:664][998]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.20-00.56.27:664][998]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.20-00.56.27:664][998]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.20-00.56.27:664][998]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.20-00.56.27:664][998]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.20-00.56.27:664][998]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.20-00.56.27:664][998]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.20-00.56.27:666][998]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.20-00.56.27:704][998]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Razer Kraken Ultimate)
+[2023.01.20-00.56.27:705][998]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.20-00.56.27:705][998]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.20-00.56.27:705][998]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.20-00.56.27:705][998]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2023.01.20-00.56.27:705][998]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2023.01.20-00.56.27:707][998]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2023.01.20-00.56.27:707][998]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2023.01.20-00.56.27:707][998]LogInit: FAudioDevice initialized.
+[2023.01.20-00.56.27:707][998]LogAudio: Display: Audio Device (ID: 27) registered with world 'ThirdPersonMap'.
+[2023.01.20-00.56.27:721][998]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.01.20-00.56.27:724][998]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.01.19-21.56.27
+[2023.01.20-00.56.27:724][998]LogWorld: Bringing up level for play took: 0.002334
+[2023.01.20-00.56.27:726][998]LogOnline: OSS: Created online subsystem instance for: :Context_63
+[2023.01.20-00.56.27:729][998]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1710.000 Y=870.000 Z=92.400
+[2023.01.20-00.56.27:729][998]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.20-00.56.27:730][998]PIE: Server logged in
+[2023.01.20-00.56.27:730][998]PIE: Play in editor total start time 0.148 seconds.
+[2023.01.20-00.56.31:479][222]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Mais que suficiente, vida cheia!
+[2023.01.20-00.56.34:020][403]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-00.56.34:020][403]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.01.20-00.56.34:020][403]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-00.56.34:020][403]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-00.56.34:033][403]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.20-00.56.34:039][403]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-00.56.34:080][403]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-00.56.34:080][403]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2023.01.20-00.56.34:082][403]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2023.01.20-00.56.34:089][403]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.01.20-00.56.34:148][404]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2023.01.20-00.56.40:373][831]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/0R/461PONT69O9JVXR5D29CAS
+[2023.01.20-00.56.40:373][831]LogSavePackage: Moving '../../../../../../Documentos/UE5/Projects/Teste/Saved/461PONT69O9JVXR5D29CAS101ACC6C45C19D7EFBF55EA8A60A8DFB.tmp' to '../../../../../../Documentos/UE5/Projects/Teste/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/0R/461PONT69O9JVXR5D29CAS.uasset'
+[2023.01.20-00.56.40:390][831]AssetCheck: New page: Asset Save: herb_C_UAID_40B0762268446B5E01_1784311268
+[2023.01.20-00.56.40:390][831]LogContentValidation: Display: Validating herb_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.herb_C_UAID_40B0762268446B5E01_1784311268
+[2023.01.20-00.56.45:977][160]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.01.20-00.56.48:226][160]LogSlate: Window 'Save Content' being destroyed
+[2023.01.20-00.56.48:327][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/folha/01_-_Default" FILE="../../../../../../Documentos/UE5/Projects/Teste/Content/folha/01_-_Default.uasset" SILENT=true
+[2023.01.20-00.56.48:330][160]LogSavePackage: Moving output files for package: /Game/folha/01_-_Default
+[2023.01.20-00.56.48:330][160]LogSavePackage: Moving '../../../../../../Documentos/UE5/Projects/Teste/Saved/01_-_DefaultFD8C128A47D9DB73D05FF1BEB6908A94.tmp' to '../../../../../../Documentos/UE5/Projects/Teste/Content/folha/01_-_Default.uasset'
+[2023.01.20-00.56.48:340][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineMaterials/EmissiveTexturedMaterial" FILE="../../../Engine/Content/EngineMaterials/EmissiveTexturedMaterial.uasset" SILENT=true
+[2023.01.20-00.56.48:342][160]LogSavePackage: Moving output files for package: /Engine/EngineMaterials/EmissiveTexturedMaterial
+[2023.01.20-00.56.48:343][160]LogSavePackage: Moving '../../../../../../Documentos/UE5/Projects/Teste/Saved/EmissiveTexturedMaterial399B4418492E9ED017577FBF76EF8D2B.tmp' to '../../../Engine/Content/EngineMaterials/EmissiveTexturedMaterial.uasset'
+[2023.01.20-00.56.48:367][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Maps/Fbx_Default_Material" FILE="../../../../../../Documentos/UE5/Projects/Teste/Content/ThirdPerson/Maps/Fbx_Default_Material.uasset" SILENT=true
+[2023.01.20-00.56.48:369][160]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/Fbx_Default_Material
+[2023.01.20-00.56.48:369][160]LogSavePackage: Moving '../../../../../../Documentos/UE5/Projects/Teste/Saved/Fbx_Default_Material67EA835148F68A1DF7FFB5854BC19562.tmp' to '../../../../../../Documentos/UE5/Projects/Teste/Content/ThirdPerson/Maps/Fbx_Default_Material.uasset'
+[2023.01.20-00.56.48:377][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/folha" FILE="../../../../../../Documentos/UE5/Projects/Teste/Content/StarterContent/Materials/folha.uasset" SILENT=true
+[2023.01.20-00.56.48:378][160]LogSavePackage: Moving output files for package: /Game/StarterContent/Materials/folha
+[2023.01.20-00.56.48:378][160]LogSavePackage: Moving '../../../../../../Documentos/UE5/Projects/Teste/Saved/folha8F19D3264A633AD16872BA9DFD119D44.tmp' to '../../../../../../Documentos/UE5/Projects/Teste/Content/StarterContent/Materials/folha.uasset'
+[2023.01.20-00.56.48:389][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/herb" FILE="../../../../../../Documentos/UE5/Projects/Teste/Content/Blueprint/herb.uasset" SILENT=true
+[2023.01.20-00.56.48:396][160]LogSavePackage: Moving output files for package: /Game/Blueprint/herb
+[2023.01.20-00.56.48:397][160]LogSavePackage: Moving '../../../../../../Documentos/UE5/Projects/Teste/Saved/herb2A33579F41185C8D97F8C8AE2DF420D5.tmp' to '../../../../../../Documentos/UE5/Projects/Teste/Content/Blueprint/herb.uasset'
+[2023.01.20-00.56.48:399][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/folha/Leaf_Diffuse_T" FILE="../../../../../../Documentos/UE5/Projects/Teste/Content/folha/Leaf_Diffuse_T.uasset" SILENT=true
+[2023.01.20-00.56.48:439][160]LogSavePackage: Moving output files for package: /Game/folha/Leaf_Diffuse_T
+[2023.01.20-00.56.48:439][160]LogSavePackage: Moving '../../../../../../Documentos/UE5/Projects/Teste/Saved/Leaf_Diffuse_TF99E208740D66CC471AFAC9030CE6F3F.tmp' to '../../../../../../Documentos/UE5/Projects/Teste/Content/folha/Leaf_Diffuse_T.uasset'
+[2023.01.20-00.56.48:439][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/folha/Leaf_Normal_T" FILE="../../../../../../Documentos/UE5/Projects/Teste/Content/folha/Leaf_Normal_T.uasset" SILENT=true
+[2023.01.20-00.56.48:472][160]LogSavePackage: Moving output files for package: /Game/folha/Leaf_Normal_T
+[2023.01.20-00.56.48:472][160]LogSavePackage: Moving '../../../../../../Documentos/UE5/Projects/Teste/Saved/Leaf_Normal_TD7CDB1F34706F4B06AC0F6A4A9C02388.tmp' to '../../../../../../Documentos/UE5/Projects/Teste/Content/folha/Leaf_Normal_T.uasset'
+[2023.01.20-00.56.48:472][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/folha/Leaf_SM" FILE="../../../../../../Documentos/UE5/Projects/Teste/Content/folha/Leaf_SM.uasset" SILENT=true
+[2023.01.20-00.56.48:474][160]LogSavePackage: Moving output files for package: /Game/folha/Leaf_SM
+[2023.01.20-00.56.48:474][160]LogSavePackage: Moving '../../../../../../Documentos/UE5/Projects/Teste/Saved/Leaf_SMB33AB45E499406776FA091859D5C33B9.tmp' to '../../../../../../Documentos/UE5/Projects/Teste/Content/folha/Leaf_SM.uasset'
+[2023.01.20-00.56.48:495][160]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.20-00.56.48:495][160]LogContentValidation: Display: Validating Material /Engine/EngineMaterials/EmissiveTexturedMaterial.EmissiveTexturedMaterial
+[2023.01.20-00.56.48:496][160]LogContentValidation: Display: Validating Texture2D /Game/folha/Leaf_Normal_T.Leaf_Normal_T
+[2023.01.20-00.56.48:496][160]LogContentValidation: Display: Validating Material /Game/ThirdPerson/Maps/Fbx_Default_Material.Fbx_Default_Material
+[2023.01.20-00.56.48:496][160]LogContentValidation: Display: Validating Texture2D /Game/folha/Leaf_Diffuse_T.Leaf_Diffuse_T
+[2023.01.20-00.56.48:496][160]LogContentValidation: Display: Validating Material /Game/folha/01_-_Default.01_-_Default
+[2023.01.20-00.56.48:496][160]LogContentValidation: Display: Validating StaticMesh /Game/folha/Leaf_SM.Leaf_SM
+[2023.01.20-00.56.48:496][160]LogContentValidation: Display: Validating Material /Game/StarterContent/Materials/folha.folha
+[2023.01.20-00.56.48:496][160]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/herb.herb
