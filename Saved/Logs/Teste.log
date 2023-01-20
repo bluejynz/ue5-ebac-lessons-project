@@ -3853,3 +3853,458 @@ An asset already exists at the import location: /Game/folha/Leaf_Diffuse_T
 [2023.01.20-00.56.48:496][160]LogContentValidation: Display: Validating StaticMesh /Game/folha/Leaf_SM.Leaf_SM
 [2023.01.20-00.56.48:496][160]LogContentValidation: Display: Validating Material /Game/StarterContent/Materials/folha.folha
 [2023.01.20-00.56.48:496][160]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/herb.herb
+[2023.01.20-00.57.45:823][233]LogCascade: Quitting Cascade. FXSystem=0x0000083E7A072220
+[2023.01.20-00.57.45:860][233]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloorComponent) Not registered. Aborting.
+[2023.01.20-00.57.45:860][233]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-00.57.45:860][233]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-00.57.53:351][732]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/herb" FILE="../../../../../../Documentos/UE5/Projects/Teste/Content/Blueprint/herb.uasset" SILENT=true
+[2023.01.20-00.57.53:357][732]LogSavePackage: Moving output files for package: /Game/Blueprint/herb
+[2023.01.20-00.57.53:357][732]LogSavePackage: Moving '../../../../../../Documentos/UE5/Projects/Teste/Saved/herb2F809F7C4E5CAD1238A399BD80C41ADD.tmp' to '../../../../../../Documentos/UE5/Projects/Teste/Content/Blueprint/herb.uasset'
+[2023.01.20-00.57.53:374][732]AssetCheck: New page: Asset Save: herb
+[2023.01.20-00.57.53:374][732]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/herb.herb
+[2023.01.20-00.58.09:959][849]LogSlate: Window 'herb' being destroyed
+[2023.01.20-00.58.09:976][849]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-00.58.09:976][849]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-00.58.14:836][165]LogViewport: Scene viewport resized to 1045x894, mode Windowed.
+[2023.01.20-00.58.33:606][698]LogStaticMesh: Display: Building static mesh Cone_6296FBE5...
+[2023.01.20-00.58.33:606][698]LogStaticMesh: Built static mesh [0.01s] /Game/ThirdPerson/Maps/_GENERATED/dany/Cone_6296FBE5.Cone_6296FBE5
+[2023.01.20-00.58.33:606][698]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/ThirdPerson/Maps/_GENERATED/dany/Cone_6296FBE5) ...
+[2023.01.20-00.58.49:791][787]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.01.20-00.58.49:791][787]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.01.20-00.58.56:762][248]LogContentBrowser: Attempting asset rename: Cone_6296FBE5 -> espeto
+[2023.01.20-00.58.56:875][248]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Maps/_GENERATED/dany/espeto" FILE="../../../../../../Documentos/UE5/Projects/Teste/Content/ThirdPerson/Maps/_GENERATED/dany/espeto.uasset" SILENT=true
+[2023.01.20-00.58.56:877][248]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/_GENERATED/dany/espeto
+[2023.01.20-00.58.56:877][248]LogSavePackage: Moving '../../../../../../Documentos/UE5/Projects/Teste/Saved/espeto926E8F274CF4B68021734DB06B9E8F23.tmp' to '../../../../../../Documentos/UE5/Projects/Teste/Content/ThirdPerson/Maps/_GENERATED/dany/espeto.uasset'
+[2023.01.20-00.58.56:966][248]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.01.20-00.58.57:068][248]LogUObjectHash: Compacting FUObjectHashTables data took   4.29ms
+[2023.01.20-00.58.57:101][248]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2023.01.20-00.58.57:107][248]AssetCheck: New page: Asset Save: espeto
+[2023.01.20-00.58.57:107][248]LogContentValidation: Display: Validating StaticMesh /Game/ThirdPerson/Maps/_GENERATED/dany/espeto.espeto
+[2023.01.20-00.59.00:526][468]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/ThirdPerson/Maps/_GENERATED/dany/espeto.espeto
+[2023.01.20-00.59.00:615][468]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-00.59.00:962][468]LogViewport: Scene viewport resized to 1405x894, mode Windowed.
+[2023.01.20-00.59.20:835][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Maps/_GENERATED/dany/espeto" FILE="../../../../../../Documentos/UE5/Projects/Teste/Content/ThirdPerson/Maps/_GENERATED/dany/espeto.uasset" SILENT=true
+[2023.01.20-00.59.20:837][347]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/_GENERATED/dany/espeto
+[2023.01.20-00.59.20:838][347]LogSavePackage: Moving '../../../../../../Documentos/UE5/Projects/Teste/Saved/espeto912C5CD243DD50484507CC8CDC7DC273.tmp' to '../../../../../../Documentos/UE5/Projects/Teste/Content/ThirdPerson/Maps/_GENERATED/dany/espeto.uasset'
+[2023.01.20-00.59.20:853][347]AssetCheck: New page: Asset Save: espeto
+[2023.01.20-00.59.20:853][347]LogContentValidation: Display: Validating StaticMesh /Game/ThirdPerson/Maps/_GENERATED/dany/espeto.espeto
+[2023.01.20-00.59.21:897][396]LogSlate: Window 'espeto' being destroyed
+[2023.01.20-00.59.21:965][396]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-00.59.21:965][396]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-00.59.24:451][563]Cmd: DELETE
+[2023.01.20-00.59.24:451][563]Cmd: ACTOR DELETE
+[2023.01.20-00.59.24:504][563]LogLevel: Warning: Missing actor folder for actor Brush_1
+[2023.01.20-00.59.24:504][563]LogLevel: Warning: Missing actor folder for actor Brush_3
+[2023.01.20-00.59.24:504][563]LogLevel: Warning: Missing actor folder for actor Brush_7
+[2023.01.20-00.59.24:504][563]LogLevel: Warning: Missing actor folder for actor Brush_9
+[2023.01.20-00.59.24:504][563]LogLevel: Warning: Missing actor folder for actor Brush_10
+[2023.01.20-00.59.24:504][563]LogLevel: Warning: Missing actor folder for actor Brush_15
+[2023.01.20-00.59.24:504][563]LogLevel: Warning: Missing actor folder for actor Brush_18
+[2023.01.20-00.59.24:504][563]LogLevel: Warning: Missing actor folder for actor Brush_19
+[2023.01.20-00.59.24:504][563]LogLevel: Warning: Missing actor folder for actor Brush_21
+[2023.01.20-00.59.24:504][563]LogLevel: Warning: Missing actor folder for actor Brush_28
+[2023.01.20-00.59.24:508][563]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.01.20-00.59.24:537][563]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.01.20-00.59.24:543][563]LogEditorActor: Deleted 1 Actors (0.091 secs)
+[2023.01.20-00.59.27:326][764]LogViewport: Scene viewport resized to 1170x894, mode Windowed.
+[2023.01.20-00.59.31:079][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.01.20-00.59.47:729][108]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.01.20-00.59.47:729][108]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.01.20-00.59.52:347][413]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.01.20-00.59.52:347][413]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.01.20-01.00.01:388][581]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.01.20-01.00.01:399][581]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.01.20-01.00.01:404][581]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.01.20-01.00.01:412][582]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.01.20-01.00.06:611][863]LogContentBrowser: Attempting asset rename: NewBlueprint -> espeto
+[2023.01.20-01.00.06:617][863]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.01.20-01.00.08:255][964]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/espeto.espeto
+[2023.01.20-01.00.08:256][964]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-01.00.08:794][964]LogViewport: Scene viewport resized to 1141x686, mode Windowed.
+[2023.01.20-01.00.18:269][497]LogSlate: Window 'espeto' being destroyed
+[2023.01.20-01.00.18:289][497]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-01.00.18:289][497]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-01.00.21:477][704]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.01.20-01.00.22:343][704]LogSlate: Window 'Delete Assets' being destroyed
+[2023.01.20-01.00.22:377][704]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.01.20-01.00.24:425][825]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.01.20-01.00.24:425][825]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.01.20-01.00.25:398][887]LogContentBrowser: Deferred new asset file creation: pickup_Child
+[2023.01.20-01.00.25:448][887]LogContentBrowser: Creating deferred item: pickup_Child
+[2023.01.20-01.00.25:457][888]LogContentBrowser: Renaming the item being created (Deferred Item: pickup_Child).
+[2023.01.20-01.00.28:622][ 64]LogContentBrowser: Attempting asset rename: pickup_Child -> espeto
+[2023.01.20-01.00.28:628][ 64]LogContentBrowser: End creating deferred item pickup_Child
+[2023.01.20-01.00.30:233][152]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/espeto.espeto
+[2023.01.20-01.00.30:234][152]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-01.00.30:751][152]LogViewport: Scene viewport resized to 1141x686, mode Windowed.
+[2023.01.20-01.00.57:267][615]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.20-01.01.39:026][938]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/espeto" FILE="../../../../../../Documentos/UE5/Projects/Teste/Content/Blueprint/espeto.uasset" SILENT=true
+[2023.01.20-01.01.39:029][938]LogSavePackage: Moving output files for package: /Game/Blueprint/espeto
+[2023.01.20-01.01.39:029][938]LogSavePackage: Moving '../../../../../../Documentos/UE5/Projects/Teste/Saved/espetoCF5B1B194F6E5EE8E8E3449F9AE252D2.tmp' to '../../../../../../Documentos/UE5/Projects/Teste/Content/Blueprint/espeto.uasset'
+[2023.01.20-01.01.39:045][938]AssetCheck: New page: Asset Save: espeto
+[2023.01.20-01.01.39:045][938]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/espeto.espeto
+[2023.01.20-01.02.03:807][504]LogEditorTransaction: Undo Delete current selection
+[2023.01.20-01.02.39:846][806]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/herb.herb
+[2023.01.20-01.02.39:847][806]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-01.08.09:165][147]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\Documentos\EBAC\Unreal Game Development\Módulo 4\argh-woman.ogg)
+[2023.01.20-01.08.09:224][147]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_-10-1-1-1-1-1 wave argh-woman...
+[2023.01.20-01.08.09:224][147]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/StarterContent/Audio/argh-woman.argh-woman will be modified from 40 to 40.
+[2023.01.20-01.08.09:229][147]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 81340 while cooking SoundWave /Game/StarterContent/Audio/argh-woman.argh-woman.
+[2023.01.20-01.08.09:229][147]LogAudio: Display: Chunk size for SoundWave /Game/StarterContent/Audio/argh-woman.argh-woman: 262144
+[2023.01.20-01.09.47:151][328]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/espeto" FILE="../../../../../../Documentos/UE5/Projects/Teste/Content/Blueprint/espeto.uasset" SILENT=true
+[2023.01.20-01.09.47:156][328]LogSavePackage: Moving output files for package: /Game/Blueprint/espeto
+[2023.01.20-01.09.47:158][328]LogSavePackage: Moving '../../../../../../Documentos/UE5/Projects/Teste/Saved/espeto23FEA9C3450DF1EEB6481A9306F66014.tmp' to '../../../../../../Documentos/UE5/Projects/Teste/Content/Blueprint/espeto.uasset'
+[2023.01.20-01.09.47:173][328]AssetCheck: New page: Asset Save: espeto
+[2023.01.20-01.09.47:174][328]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/espeto.espeto
+[2023.01.20-01.10.14:837][107]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/espeto" FILE="../../../../../../Documentos/UE5/Projects/Teste/Content/Blueprint/espeto.uasset" SILENT=true
+[2023.01.20-01.10.14:843][107]LogSavePackage: Moving output files for package: /Game/Blueprint/espeto
+[2023.01.20-01.10.14:843][107]LogSavePackage: Moving '../../../../../../Documentos/UE5/Projects/Teste/Saved/espetoA5E032C64E6F2CC8F40282A56765B11E.tmp' to '../../../../../../Documentos/UE5/Projects/Teste/Content/Blueprint/espeto.uasset'
+[2023.01.20-01.10.14:860][107]AssetCheck: New page: Asset Save: espeto
+[2023.01.20-01.10.14:860][107]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/espeto.espeto
+[2023.01.20-01.10.21:253][517]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/espeto.espeto_C
+[2023.01.20-01.10.21:253][517]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/espeto.espeto_C
+[2023.01.20-01.10.21:254][517]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/espeto.espeto as actor: espeto_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.espeto_C_0
+[2023.01.20-01.10.21:255][517]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/espeto.espeto as actor: espeto_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.espeto_C_0
+[2023.01.20-01.10.22:000][561]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/espeto.espeto_C
+[2023.01.20-01.10.22:001][561]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprint/espeto.espeto_C
+[2023.01.20-01.10.22:004][561]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/espeto.espeto as actor: espeto_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.espeto_C_UAID_40B076226844715E01_1895486326
+[2023.01.20-01.10.22:005][561]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprint/espeto.espeto as actor: espeto_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.espeto_C_UAID_40B076226844715E01_1895486326
+[2023.01.20-01.10.23:244][643]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.20-01.10.23:253][643]LogWorldPartition: Display: GenerateStreaming started...
+[2023.01.20-01.10.23:253][643]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.01.20-01.10.23:253][643]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.20-01.10.23:253][643]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.01.20-01.10.23:253][643]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.01.20-01.10.23:253][643]LogWorldPartition: Display: GetPartitionedActors took 61 us
+[2023.01.20-01.10.23:253][643]LogWorldPartition: Display: GenerateStreaming took 366 us
+[2023.01.20-01.10.23:260][643]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.01.20-01.10.23:260][643]LogPlayLevel: [PlayLevel] Compiling herb before play...
+[2023.01.20-01.10.23:297][643]LogPlayLevel: [PlayLevel] Compiling espeto before play...
+[2023.01.20-01.10.23:398][643]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2023.01.20-01.10.23:402][643]LogPlayLevel: PlayLevel: Blueprint regeneration took 142 ms (2 blueprints)
+[2023.01.20-01.10.23:402][643]PIE: New page: PIE session: ThirdPersonMap (Jan 19, 2023, 7:10:23 PM)
+[2023.01.20-01.10.23:403][643]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.01.20-01.10.23:411][643]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.01.20-01.10.23:415][643]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012167s)
+[2023.01.20-01.10.23:415][643]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.012259s)
+[2023.01.20-01.10.23:415][643]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-01.10.23:416][643]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.01.20-01.10.23:416][643]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.20-01.10.23:416][643]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.01.20-01.10.23:419][643]LogWorldPartition: Display: WorldPartition initialize took 2 ms
+[2023.01.20-01.10.23:419][643]LogPlayLevel: PIE: World Init took: (0.003437s)
+[2023.01.20-01.10.23:455][643]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.01.20-01.10.23:456][643]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2023.01.20-01.10.23:456][643]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.20-01.10.23:456][643]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.20-01.10.23:456][643]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.20-01.10.23:456][643]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.20-01.10.23:456][643]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.20-01.10.23:456][643]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.20-01.10.23:456][643]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.20-01.10.23:456][643]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.20-01.10.23:457][643]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.20-01.10.23:457][643]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.20-01.10.23:457][643]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.20-01.10.23:459][643]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.20-01.10.23:500][643]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Razer Kraken Ultimate)
+[2023.01.20-01.10.23:501][643]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.20-01.10.23:501][643]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.20-01.10.23:501][643]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.20-01.10.23:501][643]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2023.01.20-01.10.23:501][643]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2023.01.20-01.10.23:503][643]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2023.01.20-01.10.23:503][643]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2023.01.20-01.10.23:503][643]LogInit: FAudioDevice initialized.
+[2023.01.20-01.10.23:503][643]LogAudio: Display: Audio Device (ID: 28) registered with world 'ThirdPersonMap'.
+[2023.01.20-01.10.23:517][643]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.01.20-01.10.23:519][643]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.01.19-22.10.23
+[2023.01.20-01.10.23:520][643]LogWorld: Bringing up level for play took: 0.002421
+[2023.01.20-01.10.23:522][643]LogOnline: OSS: Created online subsystem instance for: :Context_69
+[2023.01.20-01.10.23:525][643]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1710.000 Y=870.000 Z=92.400
+[2023.01.20-01.10.23:525][643]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.20-01.10.23:525][643]PIE: Server logged in
+[2023.01.20-01.10.23:526][643]PIE: Play in editor total start time 0.274 seconds.
+[2023.01.20-01.10.29:479][940]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-01.10.29:479][940]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.01.20-01.10.29:479][940]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-01.10.29:479][940]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-01.10.29:495][940]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.20-01.10.29:501][940]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-01.10.29:541][940]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-01.10.29:542][940]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2023.01.20-01.10.29:544][940]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2023.01.20-01.10.29:551][940]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.01.20-01.10.29:601][941]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2023.01.20-01.10.32:361][ 87]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.20-01.10.32:370][ 87]LogWorldPartition: Display: GenerateStreaming started...
+[2023.01.20-01.10.32:370][ 87]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.01.20-01.10.32:370][ 87]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.20-01.10.32:370][ 87]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.01.20-01.10.32:370][ 87]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.01.20-01.10.32:370][ 87]LogWorldPartition: Display: GetPartitionedActors took 55 us
+[2023.01.20-01.10.32:370][ 87]LogWorldPartition: Display: GenerateStreaming took 317 us
+[2023.01.20-01.10.32:370][ 87]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.20-01.10.32:370][ 87]PIE: New page: PIE session: ThirdPersonMap (Jan 19, 2023, 7:10:32 PM)
+[2023.01.20-01.10.32:371][ 87]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.01.20-01.10.32:380][ 87]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.01.20-01.10.32:383][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012357s)
+[2023.01.20-01.10.32:383][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.012439s)
+[2023.01.20-01.10.32:384][ 87]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-01.10.32:384][ 87]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.01.20-01.10.32:384][ 87]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.20-01.10.32:384][ 87]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.01.20-01.10.32:387][ 87]LogWorldPartition: Display: WorldPartition initialize took 2 ms
+[2023.01.20-01.10.32:387][ 87]LogPlayLevel: PIE: World Init took: (0.003239s)
+[2023.01.20-01.10.32:427][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.01.20-01.10.32:428][ 87]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2023.01.20-01.10.32:428][ 87]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.20-01.10.32:428][ 87]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.20-01.10.32:429][ 87]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.20-01.10.32:429][ 87]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.20-01.10.32:429][ 87]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.20-01.10.32:429][ 87]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.20-01.10.32:429][ 87]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.20-01.10.32:429][ 87]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.20-01.10.32:429][ 87]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.20-01.10.32:429][ 87]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.20-01.10.32:429][ 87]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.20-01.10.32:431][ 87]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.20-01.10.32:468][ 87]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Razer Kraken Ultimate)
+[2023.01.20-01.10.32:469][ 87]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.20-01.10.32:469][ 87]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.20-01.10.32:469][ 87]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.20-01.10.32:469][ 87]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2023.01.20-01.10.32:469][ 87]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2023.01.20-01.10.32:471][ 87]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2023.01.20-01.10.32:471][ 87]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2023.01.20-01.10.32:471][ 87]LogInit: FAudioDevice initialized.
+[2023.01.20-01.10.32:471][ 87]LogAudio: Display: Audio Device (ID: 29) registered with world 'ThirdPersonMap'.
+[2023.01.20-01.10.32:483][ 87]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.01.20-01.10.32:485][ 87]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.01.19-22.10.32
+[2023.01.20-01.10.32:486][ 87]LogWorld: Bringing up level for play took: 0.002340
+[2023.01.20-01.10.32:487][ 87]LogOnline: OSS: Created online subsystem instance for: :Context_70
+[2023.01.20-01.10.32:489][ 87]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1710.000 Y=870.000 Z=92.400
+[2023.01.20-01.10.32:490][ 87]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.20-01.10.32:490][ 87]PIE: Server logged in
+[2023.01.20-01.10.32:491][ 87]PIE: Play in editor total start time 0.122 seconds.
+[2023.01.20-01.10.39:432][496]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 5
+[2023.01.20-01.10.41:226][613]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 10
+[2023.01.20-01.10.41:911][660]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 15
+[2023.01.20-01.10.42:173][678]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 20
+[2023.01.20-01.10.42:514][701]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 21
+[2023.01.20-01.10.42:718][715]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 22
+[2023.01.20-01.10.42:897][727]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 23
+[2023.01.20-01.10.43:077][739]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 24
+[2023.01.20-01.10.46:335][931]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 27
+[2023.01.20-01.10.46:862][959]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 30
+[2023.01.20-01.10.47:149][973]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 33
+[2023.01.20-01.10.47:368][985]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 36
+[2023.01.20-01.10.58:110][622]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Vida do player: 95
+[2023.01.20-01.10.58:110][622]LogBlueprintUserMessages: [espeto_C_UAID_40B076226844715E01_1895486326] Doeu! Vida: 95
+[2023.01.20-01.11.01:706][842]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Vida do player: 90
+[2023.01.20-01.11.01:706][842]LogBlueprintUserMessages: [espeto_C_UAID_40B076226844715E01_1895486326] Doeu! Vida: 90
+[2023.01.20-01.11.05:115][ 42]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Vida do player: 85
+[2023.01.20-01.11.05:115][ 42]LogBlueprintUserMessages: [espeto_C_UAID_40B076226844715E01_1895486326] Doeu! Vida: 85
+[2023.01.20-01.11.05:679][ 72]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Vida do player: 80
+[2023.01.20-01.11.05:679][ 72]LogBlueprintUserMessages: [espeto_C_UAID_40B076226844715E01_1895486326] Doeu! Vida: 80
+[2023.01.20-01.11.10:860][356]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Vida do player: 75
+[2023.01.20-01.11.10:860][356]LogBlueprintUserMessages: [espeto_C_UAID_40B076226844715E01_1895486326] Doeu! Vida: 75
+[2023.01.20-01.11.13:831][517]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Vida do player: 85
+[2023.01.20-01.11.18:249][767]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-01.11.18:249][767]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.01.20-01.11.18:250][767]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-01.11.18:250][767]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-01.11.18:262][767]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.20-01.11.18:268][767]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-01.11.18:306][767]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-01.11.18:307][767]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2023.01.20-01.11.18:308][767]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2023.01.20-01.11.18:315][767]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.01.20-01.11.18:369][768]LogPlayLevel: Display: Destroying online subsystem :Context_70
+[2023.01.20-01.11.44:522][371]LogEditorTransaction: Undo Delete current selection
+[2023.01.20-01.12.54:974][860]LogViewport: Scene viewport resized to 1141x686, mode Windowed.
+[2023.01.20-01.13.06:146][533]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/espeto" FILE="../../../../../../Documentos/UE5/Projects/Teste/Content/Blueprint/espeto.uasset" SILENT=true
+[2023.01.20-01.13.06:153][533]LogSavePackage: Moving output files for package: /Game/Blueprint/espeto
+[2023.01.20-01.13.06:154][533]LogSavePackage: Moving '../../../../../../Documentos/UE5/Projects/Teste/Saved/espetoCD3D854246370AEFA165CF8449F102BE.tmp' to '../../../../../../Documentos/UE5/Projects/Teste/Content/Blueprint/espeto.uasset'
+[2023.01.20-01.13.06:169][533]AssetCheck: New page: Asset Save: espeto
+[2023.01.20-01.13.06:169][533]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/espeto.espeto
+[2023.01.20-01.13.09:699][759]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.20-01.13.09:707][759]LogWorldPartition: Display: GenerateStreaming started...
+[2023.01.20-01.13.09:707][759]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.01.20-01.13.09:707][759]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.20-01.13.09:707][759]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.01.20-01.13.09:707][759]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.01.20-01.13.09:707][759]LogWorldPartition: Display: GetPartitionedActors took 60 us
+[2023.01.20-01.13.09:707][759]LogWorldPartition: Display: GenerateStreaming took 335 us
+[2023.01.20-01.13.09:707][759]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.01.20-01.13.09:709][759]LogPlayLevel: [PlayLevel] Compiling espeto before play...
+[2023.01.20-01.13.09:792][759]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.01.20-01.13.09:796][759]LogPlayLevel: PlayLevel: Blueprint regeneration took 87 ms (1 blueprints)
+[2023.01.20-01.13.09:796][759]PIE: New page: PIE session: ThirdPersonMap (Jan 19, 2023, 7:13:09 PM)
+[2023.01.20-01.13.09:796][759]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.01.20-01.13.09:804][759]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.01.20-01.13.09:808][759]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012094s)
+[2023.01.20-01.13.09:808][759]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.012183s)
+[2023.01.20-01.13.09:808][759]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-01.13.09:809][759]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.01.20-01.13.09:809][759]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.20-01.13.09:809][759]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.01.20-01.13.09:811][759]LogWorldPartition: Display: WorldPartition initialize took 2 ms
+[2023.01.20-01.13.09:811][759]LogPlayLevel: PIE: World Init took: (0.003409s)
+[2023.01.20-01.13.09:849][759]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.01.20-01.13.09:849][759]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2023.01.20-01.13.09:850][759]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.20-01.13.09:850][759]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.20-01.13.09:850][759]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.20-01.13.09:850][759]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.20-01.13.09:850][759]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.20-01.13.09:850][759]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.20-01.13.09:850][759]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.20-01.13.09:850][759]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.20-01.13.09:850][759]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.20-01.13.09:850][759]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.20-01.13.09:850][759]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.20-01.13.09:852][759]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.20-01.13.09:893][759]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Razer Kraken Ultimate)
+[2023.01.20-01.13.09:894][759]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.20-01.13.09:894][759]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.20-01.13.09:894][759]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.20-01.13.09:898][759]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=30
+[2023.01.20-01.13.09:898][759]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=30
+[2023.01.20-01.13.09:900][759]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=30
+[2023.01.20-01.13.09:900][759]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=30
+[2023.01.20-01.13.09:900][759]LogInit: FAudioDevice initialized.
+[2023.01.20-01.13.09:900][759]LogAudio: Display: Audio Device (ID: 30) registered with world 'ThirdPersonMap'.
+[2023.01.20-01.13.09:916][759]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.01.20-01.13.09:919][759]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.01.19-22.13.09
+[2023.01.20-01.13.09:919][759]LogWorld: Bringing up level for play took: 0.002610
+[2023.01.20-01.13.09:921][759]LogOnline: OSS: Created online subsystem instance for: :Context_71
+[2023.01.20-01.13.09:923][759]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1710.000 Y=870.000 Z=92.400
+[2023.01.20-01.13.09:924][759]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.20-01.13.09:924][759]PIE: Server logged in
+[2023.01.20-01.13.09:925][759]PIE: Play in editor total start time 0.219 seconds.
+[2023.01.20-01.13.13:966][975]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Vida do player: 95
+[2023.01.20-01.13.13:966][975]LogBlueprintUserMessages: [espeto_C_UAID_40B076226844715E01_1895486326] Doeu! Vida: 95
+[2023.01.20-01.13.15:139][ 49]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-01.13.15:139][ 49]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.01.20-01.13.15:140][ 49]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-01.13.15:140][ 49]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-01.13.15:155][ 49]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.20-01.13.15:160][ 49]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-01.13.15:198][ 49]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-01.13.15:199][ 49]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2023.01.20-01.13.15:200][ 49]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2023.01.20-01.13.15:208][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.01.20-01.13.15:254][ 50]LogPlayLevel: Display: Destroying online subsystem :Context_71
+[2023.01.20-01.13.38:840][581]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/espeto" FILE="../../../../../../Documentos/UE5/Projects/Teste/Content/Blueprint/espeto.uasset" SILENT=true
+[2023.01.20-01.13.38:846][581]LogSavePackage: Moving output files for package: /Game/Blueprint/espeto
+[2023.01.20-01.13.38:846][581]LogSavePackage: Moving '../../../../../../Documentos/UE5/Projects/Teste/Saved/espeto5A4C04E044E6CF02F31DB4984188035A.tmp' to '../../../../../../Documentos/UE5/Projects/Teste/Content/Blueprint/espeto.uasset'
+[2023.01.20-01.13.38:863][581]AssetCheck: New page: Asset Save: espeto
+[2023.01.20-01.13.38:863][581]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/espeto.espeto
+[2023.01.20-01.13.41:981][791]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.20-01.13.41:988][791]LogWorldPartition: Display: GenerateStreaming started...
+[2023.01.20-01.13.41:988][791]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.01.20-01.13.41:988][791]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.20-01.13.41:988][791]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.01.20-01.13.41:988][791]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.01.20-01.13.41:988][791]LogWorldPartition: Display: GetPartitionedActors took 62 us
+[2023.01.20-01.13.41:989][791]LogWorldPartition: Display: GenerateStreaming took 402 us
+[2023.01.20-01.13.41:989][791]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.01.20-01.13.41:989][791]LogPlayLevel: [PlayLevel] Compiling espeto before play...
+[2023.01.20-01.13.42:066][791]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.01.20-01.13.42:069][791]LogPlayLevel: PlayLevel: Blueprint regeneration took 79 ms (1 blueprints)
+[2023.01.20-01.13.42:069][791]PIE: New page: PIE session: ThirdPersonMap (Jan 19, 2023, 7:13:42 PM)
+[2023.01.20-01.13.42:099][791]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.01.20-01.13.42:107][791]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.01.20-01.13.42:110][791]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011916s)
+[2023.01.20-01.13.42:110][791]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.012030s)
+[2023.01.20-01.13.42:110][791]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-01.13.42:111][791]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.01.20-01.13.42:111][791]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.20-01.13.42:111][791]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.01.20-01.13.42:113][791]LogWorldPartition: Display: WorldPartition initialize took 2 ms
+[2023.01.20-01.13.42:113][791]LogPlayLevel: PIE: World Init took: (0.003319s)
+[2023.01.20-01.13.42:150][791]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.01.20-01.13.42:151][791]LogAudio: Display: Creating Audio Device:                 Id: 31, Scope: Unique, Realtime: True
+[2023.01.20-01.13.42:151][791]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.20-01.13.42:151][791]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.20-01.13.42:151][791]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.20-01.13.42:151][791]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.20-01.13.42:151][791]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.20-01.13.42:151][791]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.20-01.13.42:151][791]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.20-01.13.42:151][791]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.20-01.13.42:152][791]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.20-01.13.42:152][791]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.20-01.13.42:152][791]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.20-01.13.42:154][791]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.20-01.13.42:192][791]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Razer Kraken Ultimate)
+[2023.01.20-01.13.42:192][791]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.20-01.13.42:193][791]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.20-01.13.42:193][791]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.20-01.13.42:193][791]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=31
+[2023.01.20-01.13.42:193][791]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=31
+[2023.01.20-01.13.42:195][791]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=31
+[2023.01.20-01.13.42:195][791]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=31
+[2023.01.20-01.13.42:195][791]LogInit: FAudioDevice initialized.
+[2023.01.20-01.13.42:195][791]LogAudio: Display: Audio Device (ID: 31) registered with world 'ThirdPersonMap'.
+[2023.01.20-01.13.42:206][791]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.01.20-01.13.42:209][791]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.01.19-22.13.42
+[2023.01.20-01.13.42:210][791]LogWorld: Bringing up level for play took: 0.002401
+[2023.01.20-01.13.42:211][791]LogOnline: OSS: Created online subsystem instance for: :Context_72
+[2023.01.20-01.13.42:214][791]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1710.000 Y=870.000 Z=92.400
+[2023.01.20-01.13.42:214][791]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.20-01.13.42:215][791]PIE: Server logged in
+[2023.01.20-01.13.42:215][791]PIE: Play in editor total start time 0.228 seconds.
+[2023.01.20-01.13.45:804][988]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Vida do player: 95
+[2023.01.20-01.13.45:805][988]LogBlueprintUserMessages: [espeto_C_UAID_40B076226844715E01_1895486326] Doeu!
+[2023.01.20-01.13.50:555][290]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Vida do player: 90
+[2023.01.20-01.13.50:555][290]LogBlueprintUserMessages: [espeto_C_UAID_40B076226844715E01_1895486326] Doeu!
+[2023.01.20-01.14.00:845][924]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Vida do player: 85
+[2023.01.20-01.14.00:845][924]LogBlueprintUserMessages: [espeto_C_UAID_40B076226844715E01_1895486326] Doeu!
+[2023.01.20-01.14.04:729][175]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Vida do player: 80
+[2023.01.20-01.14.04:729][175]LogBlueprintUserMessages: [espeto_C_UAID_40B076226844715E01_1895486326] Doeu!
+[2023.01.20-01.14.10:076][518]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Vida do player: 90
+[2023.01.20-01.14.22:307][406]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 3
+[2023.01.20-01.14.26:123][668]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 6
+[2023.01.20-01.14.26:346][683]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 9
+[2023.01.20-01.14.26:573][698]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 12
+[2023.01.20-01.14.27:463][760]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 13
+[2023.01.20-01.14.27:974][791]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 14
+[2023.01.20-01.14.28:216][803]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 15
+[2023.01.20-01.14.28:424][813]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 16
+[2023.01.20-01.14.28:754][831]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 21
+[2023.01.20-01.14.28:972][843]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 26
+[2023.01.20-01.14.29:224][855]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 31
+[2023.01.20-01.14.29:439][865]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Moedas: 36
+[2023.01.20-01.14.30:449][920]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-01.14.30:449][920]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.01.20-01.14.30:450][920]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-01.14.30:450][920]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-01.14.30:474][920]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.20-01.14.30:479][920]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-01.14.30:519][920]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-01.14.30:519][920]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2023.01.20-01.14.30:520][920]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2023.01.20-01.14.30:528][920]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.01.20-01.14.30:574][921]LogPlayLevel: Display: Destroying online subsystem :Context_72
+[2023.01.20-01.14.41:320][509]LogWorldPartition: Warning: Actor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_40B076226844715E01_1187101325 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/C7/DTY6KI4HBWWXGF5USSXA89.PackageMetaData in its package
+[2023.01.20-01.14.41:322][509]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.01.20-01.14.41:364][509]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.01.20-01.14.41:404][509]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.01.20-01.14.41:406][509]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/0R/461PONT69O9JVXR5D29CAS
+[2023.01.20-01.14.41:406][509]LogSavePackage: Moving '../../../../../../Documentos/UE5/Projects/Teste/Saved/461PONT69O9JVXR5D29CAS18F69F524F00EA425261ADA05DE563F2.tmp' to '../../../../../../Documentos/UE5/Projects/Teste/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/0R/461PONT69O9JVXR5D29CAS.uasset'
+[2023.01.20-01.14.41:409][509]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/V3/3KS9XYLIN54NILUVF6S2YD
+[2023.01.20-01.14.41:409][509]LogSavePackage: Moving '../../../../../../Documentos/UE5/Projects/Teste/Saved/3KS9XYLIN54NILUVF6S2YDBADEE43149CB4AB0AA86759E75215C3B.tmp' to '../../../../../../Documentos/UE5/Projects/Teste/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/V3/3KS9XYLIN54NILUVF6S2YD.uasset'
+[2023.01.20-01.14.41:426][509]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.20-01.14.41:426][509]LogContentValidation: Display: Validating herb_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.herb_C_UAID_40B0762268446B5E01_1784311268
+[2023.01.20-01.14.41:426][509]LogContentValidation: Display: Validating espeto_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.espeto_C_UAID_40B076226844715E01_1895486326
+[2023.01.20-01.14.41:464][509]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.01.20-01.14.46:670][782]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.01.20-01.14.47:805][782]LogSlate: Window 'Save Content' being destroyed
+[2023.01.20-01.14.47:871][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Audio/argh-woman" FILE="../../../../../../Documentos/UE5/Projects/Teste/Content/StarterContent/Audio/argh-woman.uasset" SILENT=true
+[2023.01.20-01.14.47:872][782]LogSavePackage: Moving output files for package: /Game/StarterContent/Audio/argh-woman
+[2023.01.20-01.14.47:872][782]LogSavePackage: Moving '../../../../../../Documentos/UE5/Projects/Teste/Saved/argh-womanDE078C45411550E9B089A2BD80DF9E98.tmp' to '../../../../../../Documentos/UE5/Projects/Teste/Content/StarterContent/Audio/argh-woman.uasset'
+[2023.01.20-01.14.47:886][782]AssetCheck: New page: Asset Save: argh-woman
+[2023.01.20-01.14.47:886][782]LogContentValidation: Display: Validating SoundWave /Game/StarterContent/Audio/argh-woman.argh-woman
